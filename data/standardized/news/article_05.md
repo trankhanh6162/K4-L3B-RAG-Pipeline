@@ -3,7 +3,7 @@ title: "Procedure for Requesting a Leave of Absence, Withdrawal and Return from 
 source: "article_05.json"
 doc_type: "news"
 url: "https://policy.vinuni.edu.vn/all-policies/procedure-for-requesting-a-leave-of-absence-withdrawal-and-return-from-a-leave-of-absence/"
-date_crawled: "2026-09-25T04:04:54.218549+00:00"
+date_crawled: "2026-09-25T13:14:57.938774+00:00"
 content_kind: "policy"
 quality_status: "cleaned"
 ---

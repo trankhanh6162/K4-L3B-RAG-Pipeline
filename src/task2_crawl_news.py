@@ -17,6 +17,7 @@ import asyncio
 import json
 from datetime import datetime, timezone
 from pathlib import Path
+from dotenv import load_dotenv
 
 from crawl4ai import AsyncWebCrawler, BrowserConfig, CacheMode, CrawlerRunConfig
 

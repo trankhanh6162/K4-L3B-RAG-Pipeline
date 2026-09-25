@@ -3,7 +3,7 @@ title: "English Language Requirements For Undergraduate Admissions"
 source: "article_01.json"
 doc_type: "news"
 url: "https://policy.vinuni.edu.vn/academic-affairs/english-language-requirements-for-undergraduate-admissions/"
-date_crawled: "2026-09-25T04:04:37.866632+00:00"
+date_crawled: "2026-09-25T13:14:44.973965+00:00"
 content_kind: "policy"
 quality_status: "needs_source_review"
 ---

@@ -3,7 +3,7 @@ title: "Student Grade Appeal Procedure"
 source: "article_04.json"
 doc_type: "news"
 url: "https://policy.vinuni.edu.vn/all-policies/student-grade-appeal-procedure/"
-date_crawled: "2026-09-25T04:04:50.626366+00:00"
+date_crawled: "2026-09-25T13:14:53.762272+00:00"
 content_kind: "policy"
 quality_status: "cleaned"
 ---

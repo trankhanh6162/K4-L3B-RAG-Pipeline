@@ -3,7 +3,7 @@ title: "Guideline for Program Change Request"
 source: "article_03.json"
 doc_type: "news"
 url: "https://policy.vinuni.edu.vn/all-policies/guideline-for-program-change-request/"
-date_crawled: "2026-09-25T04:04:47.334906+00:00"
+date_crawled: "2026-09-25T13:14:50.728701+00:00"
 content_kind: "policy"
 quality_status: "needs_source_review"
 ---

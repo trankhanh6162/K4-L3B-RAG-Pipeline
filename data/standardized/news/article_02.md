@@ -3,7 +3,7 @@ title: "English Language Proficiency Requirements For Graduation At VinUniversit
 source: "article_02.json"
 doc_type: "news"
 url: "https://policy.vinuni.edu.vn/all-policies/english-language-proficiency-requirements-for-graduation-at-vinuniversity/"
-date_crawled: "2026-09-25T04:04:42.849617+00:00"
+date_crawled: "2026-09-25T13:14:47.762348+00:00"
 content_kind: "policy"
 quality_status: "cleaned"
 ---
