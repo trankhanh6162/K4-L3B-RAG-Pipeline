@@ -36,6 +36,9 @@ REPORT_PATHS = [EVALUATION_DIR / "RESULT.md", ROOT / "reports" / "RESULT.md"]
 TOP_K = int(os.getenv("EVALUATION_TOP_K", "5"))
 GENERATION_ATTEMPTS = int(os.getenv("EVALUATION_GENERATION_ATTEMPTS", "4"))
 GENERATION_DELAY = float(os.getenv("EVALUATION_GENERATION_DELAY_SECONDS", "5"))
+SCORING_ATTEMPTS = int(os.getenv("EVALUATION_SCORING_ATTEMPTS", "4"))
+SCORING_RETRY_DELAY = float(os.getenv("EVALUATION_SCORING_RETRY_DELAY_SECONDS", "60"))
+SCORING_CASE_DELAY = float(os.getenv("EVALUATION_SCORING_CASE_DELAY_SECONDS", "45"))
 
 
 def _load_json(path: Path, default):
@@ -128,7 +131,9 @@ def score_with_ragas(rows: list[dict]) -> list[dict]:
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY is not configured")
     client = genai.Client(api_key=api_key)
-    run_config = RunConfig(timeout=180, max_retries=8, max_wait=60, max_workers=1)
+    # The four metrics for one case are independent. Run them concurrently,
+    # then pause between cases to remain below Gemini's free-tier RPM quota.
+    run_config = RunConfig(timeout=180, max_retries=8, max_wait=60, max_workers=4)
     evaluator_llm = llm_factory(
         LLM_MODEL, provider="google", client=client, temperature=0
     )
@@ -138,31 +143,21 @@ def score_with_ragas(rows: list[dict]) -> list[dict]:
         client=client,
         run_config=run_config,
     )
+    # Ragas 0.4.3's ResponseRelevancy still expects the legacy LangChain
+    # embedding method names, while its Google provider exposes the new names.
+    # Supply the two compatibility aliases until the upstream interfaces align.
+    if not hasattr(evaluator_embeddings, "embed_query"):
+        evaluator_embeddings.embed_query = evaluator_embeddings.embed_text
+    if not hasattr(evaluator_embeddings, "embed_documents"):
+        evaluator_embeddings.embed_documents = evaluator_embeddings.embed_texts
     metrics = [
         Faithfulness(llm=evaluator_llm),
-        ResponseRelevancy(llm=evaluator_llm, embeddings=evaluator_embeddings),
+        ResponseRelevancy(
+            llm=evaluator_llm, embeddings=evaluator_embeddings, strictness=1
+        ),
         LLMContextRecall(llm=evaluator_llm),
         LLMContextPrecisionWithReference(llm=evaluator_llm),
     ]
-    samples = [
-        {
-            "user_input": row["question"],
-            "retrieved_contexts": row["contexts"],
-            "response": row["answer"],
-            "reference": row["reference"],
-            "reference_contexts": [row["reference_context"]],
-        }
-        for row in rows
-    ]
-    result = evaluate(
-        EvaluationDataset.from_list(samples),
-        metrics=metrics,
-        run_config=run_config,
-        raise_exceptions=False,
-        show_progress=True,
-        batch_size=1,
-    )
-    frame = result.to_pandas()
     aliases = {
         "faithfulness": "faithfulness",
         "answer_relevancy": "answer_relevance",
@@ -170,12 +165,60 @@ def score_with_ragas(rows: list[dict]) -> list[dict]:
         "llm_context_precision_with_reference": "context_precision",
         "context_precision": "context_precision",
     }
-    for row, (_, scored) in zip(rows, frame.iterrows()):
-        row["scores"] = {
-            target: float(scored[source])
-            for source, target in aliases.items()
-            if source in scored and not math.isnan(float(scored[source]))
+    required_scores = {
+        "faithfulness",
+        "answer_relevance",
+        "context_recall",
+        "context_precision",
+    }
+    pending = [row for row in rows if not required_scores <= set(row.get("scores", {}))]
+    for index, row in enumerate(pending, 1):
+        sample = {
+            "user_input": row["question"],
+            "retrieved_contexts": row["contexts"],
+            "response": row["answer"],
+            "reference": row["reference"],
+            "reference_contexts": [row["reference_context"]],
         }
+        for attempt in range(SCORING_ATTEMPTS):
+            try:
+                result = evaluate(
+                    EvaluationDataset.from_list([sample]),
+                    metrics=metrics,
+                    run_config=run_config,
+                    # Never silently turn evaluator/configuration errors into NaN.
+                    raise_exceptions=True,
+                    show_progress=False,
+                    batch_size=4,
+                )
+                scored = result.to_pandas().iloc[0]
+                row["scores"] = {
+                    target: float(scored[source])
+                    for source, target in aliases.items()
+                    if source in scored and not math.isnan(float(scored[source]))
+                }
+                missing = required_scores - set(row["scores"])
+                if missing:
+                    raise RuntimeError(f"Ragas returned no score for: {sorted(missing)}")
+                _save_json(RAW_RESULTS_PATH, rows)
+                print(
+                    f"Scored {index}/{len(pending)}: case {row['case']} config {row['config']}",
+                    flush=True,
+                )
+                break
+            except Exception:
+                if attempt == SCORING_ATTEMPTS - 1:
+                    raise
+                wait = SCORING_RETRY_DELAY * (attempt + 1)
+                print(f"Scoring failed; retrying in {wait:.0f}s", flush=True)
+                time.sleep(wait)
+        if index < len(pending):
+            time.sleep(SCORING_CASE_DELAY)
+    if not any(row.get("scores") for row in rows):
+        raise RuntimeError(
+            "Ragas returned no metric scores. Check evaluator dependencies, "
+            "model access, API quota, and the preceding error output."
+        )
     print(f"Scored with Ragas {ragas.__version__}", flush=True)
     _save_json(RAW_RESULTS_PATH, rows)
     return rows

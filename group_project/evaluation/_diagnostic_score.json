@@ -1,0 +1,32 @@
+[
+  {
+    "case": 1,
+    "config": "A",
+    "strategy": "dense-only",
+    "question": "Khối lượng học tập tối thiểu của chương trình tiến sĩ là bao nhiêu tín chỉ?",
+    "reference": "Nghiên cứu sinh có bằng thạc sĩ phải học tối thiểu 90 tín chỉ; nghiên cứu sinh có bằng đại học phải học tối thiểu 120 tín chỉ.",
+    "reference_context": "Khối lượng học tập tối thiểu 90 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp thạc sĩ và tối thiểu 120 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp đại học.",
+    "answer": "Khối lượng học tập tối thiểu đối với nghiên cứu sinh chương trình tiến sĩ là:\n- Tối thiểu 90 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp thạc sĩ [Source 1].\n- Tối thiểu 120 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp đại học [Source 1].",
+    "contexts": [
+      "yêu cầu của từng lĩnh vực, ngành đào tạo cụ thể. Kết quả nghiên cứu được thể hiện trong luận án tiến sĩ và những công bố khoa học có liên quan của nghiên cứu sinh.\n\n3. Khối lượng học tập tối thiểu 90 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp thạc sĩ và tối thiểu 120 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp đại học.\n\n### Điều 3. Thời gian và hình thức đào tạo\n\n1.",
+      "với yêu cầu của Khung trình độ quốc gia Việt Nam. Đảm bảo khối lượng kiến thức tối thiểu 30 tín chỉ đối với chương trình đào tạo một năm học; 45 tín chỉ đối với chương trình đào tạo một năm rưỡi và 60 tín chỉ đối với chương trình đào tạo hai năm học.\n\n### Điều 4. Công nhận kết quả học tập và chuyển đổi tín chỉ\n\n1.",
+      "của Trường.\n\n### Điều 11. Khối lượng học tập\n\n1. Khối lượng học tập được xác định bởi số tín chỉ mà sinh viên đang học. Thông thường khối lượng học tập toàn thời gian là 30 tín chỉ trong một năm học. Tùy vào mục tiêu học tập, sinh viên có thể tăng hoặc giảm khối lượng học của mình.\n\n2. Để duy trì là sinh viên toàn thời gian (chính quy), sinh viên phải đăng ký tối thiểu 80% khối lượng học tập trong một học kỳ thông thường (tương đương với 12 tín chỉ).\n\n3.",
+      "ọc) theo quy định của Bộ Giáo dục và Đào tạo.\n\n5. Cấu trúc chương trình đào tạo:\n\na) Định hướng nghiên cứu: khối lượng nghiên cứu khoa học từ 24 đến 30 tín chỉ, bao gồm 12 đến 15 tín chỉ cho luận văn, 12 đến 15 tín chỉ cho các đồ án, dự án, chuyên đề nghiên cứu khác.\n\nb) Định hướng ứng dụng: thực tập từ 6 đến 9 tín chỉ; học phần tốt nghiệp từ 6 đến 9 tín chỉ dưới hình thức đề án, đồ án hoặc dự án.\n\n6.",
+      "kỳ thông thường (tương đương với 12 tín chỉ).\n\n3. Quy định khối lượng học tập đăng ký trong mỗi kỳ học chính như sau: Phân loại Khối lượng học tập Ghi chú Ít nhất 14 tín chỉ cho mỗi học kỳ (áp dụng cho sinh viên năm đầu hoặc những sinh viên có kết quả kỳ trước đạt Mục tiêu giúp Sinh viên học lực khá trở lên; không áp dụng cho hoàn thành các yêu cầu Bình thường học kỳ cuối khóa học); của chương trình đào tạo trong thời gian học tập Ít nhất 10 tín chỉ cho mỗi học kỳ, áp thông thường."
+    ],
+    "source_ids": [
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-5",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-15",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-57",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-7",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-58"
+    ],
+    "latency_seconds": 5.058,
+    "scores": {
+      "faithfulness": 1.0,
+      "answer_relevance": 0.9368341013231893,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    }
+  }
+]

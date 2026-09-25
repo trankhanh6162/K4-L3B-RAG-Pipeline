@@ -1,0 +1,1077 @@
+[
+  {
+    "case": 1,
+    "config": "A",
+    "strategy": "dense-only",
+    "question": "Khối lượng học tập tối thiểu của chương trình tiến sĩ là bao nhiêu tín chỉ?",
+    "reference": "Nghiên cứu sinh có bằng thạc sĩ phải học tối thiểu 90 tín chỉ; nghiên cứu sinh có bằng đại học phải học tối thiểu 120 tín chỉ.",
+    "reference_context": "Khối lượng học tập tối thiểu 90 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp thạc sĩ và tối thiểu 120 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp đại học.",
+    "answer": "Khối lượng học tập tối thiểu đối với nghiên cứu sinh chương trình tiến sĩ là:\n- Tối thiểu 90 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp thạc sĩ [Source 1].\n- Tối thiểu 120 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp đại học [Source 1].",
+    "contexts": [
+      "yêu cầu của từng lĩnh vực, ngành đào tạo cụ thể. Kết quả nghiên cứu được thể hiện trong luận án tiến sĩ và những công bố khoa học có liên quan của nghiên cứu sinh.\n\n3. Khối lượng học tập tối thiểu 90 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp thạc sĩ và tối thiểu 120 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp đại học.\n\n### Điều 3. Thời gian và hình thức đào tạo\n\n1.",
+      "với yêu cầu của Khung trình độ quốc gia Việt Nam. Đảm bảo khối lượng kiến thức tối thiểu 30 tín chỉ đối với chương trình đào tạo một năm học; 45 tín chỉ đối với chương trình đào tạo một năm rưỡi và 60 tín chỉ đối với chương trình đào tạo hai năm học.\n\n### Điều 4. Công nhận kết quả học tập và chuyển đổi tín chỉ\n\n1.",
+      "của Trường.\n\n### Điều 11. Khối lượng học tập\n\n1. Khối lượng học tập được xác định bởi số tín chỉ mà sinh viên đang học. Thông thường khối lượng học tập toàn thời gian là 30 tín chỉ trong một năm học. Tùy vào mục tiêu học tập, sinh viên có thể tăng hoặc giảm khối lượng học của mình.\n\n2. Để duy trì là sinh viên toàn thời gian (chính quy), sinh viên phải đăng ký tối thiểu 80% khối lượng học tập trong một học kỳ thông thường (tương đương với 12 tín chỉ).\n\n3.",
+      "ọc) theo quy định của Bộ Giáo dục và Đào tạo.\n\n5. Cấu trúc chương trình đào tạo:\n\na) Định hướng nghiên cứu: khối lượng nghiên cứu khoa học từ 24 đến 30 tín chỉ, bao gồm 12 đến 15 tín chỉ cho luận văn, 12 đến 15 tín chỉ cho các đồ án, dự án, chuyên đề nghiên cứu khác.\n\nb) Định hướng ứng dụng: thực tập từ 6 đến 9 tín chỉ; học phần tốt nghiệp từ 6 đến 9 tín chỉ dưới hình thức đề án, đồ án hoặc dự án.\n\n6.",
+      "kỳ thông thường (tương đương với 12 tín chỉ).\n\n3. Quy định khối lượng học tập đăng ký trong mỗi kỳ học chính như sau: Phân loại Khối lượng học tập Ghi chú Ít nhất 14 tín chỉ cho mỗi học kỳ (áp dụng cho sinh viên năm đầu hoặc những sinh viên có kết quả kỳ trước đạt Mục tiêu giúp Sinh viên học lực khá trở lên; không áp dụng cho hoàn thành các yêu cầu Bình thường học kỳ cuối khóa học); của chương trình đào tạo trong thời gian học tập Ít nhất 10 tín chỉ cho mỗi học kỳ, áp thông thường."
+    ],
+    "source_ids": [
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-5",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-15",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-57",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-7",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-58"
+    ],
+    "latency_seconds": 5.058,
+    "scores": {
+      "faithfulness": 1.0,
+      "answer_relevance": 0.9368341013231893,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    }
+  },
+  {
+    "case": 1,
+    "config": "B",
+    "strategy": "hybrid+RRF",
+    "question": "Khối lượng học tập tối thiểu của chương trình tiến sĩ là bao nhiêu tín chỉ?",
+    "reference": "Nghiên cứu sinh có bằng thạc sĩ phải học tối thiểu 90 tín chỉ; nghiên cứu sinh có bằng đại học phải học tối thiểu 120 tín chỉ.",
+    "reference_context": "Khối lượng học tập tối thiểu 90 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp thạc sĩ và tối thiểu 120 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp đại học.",
+    "answer": "Khối lượng học tập tối thiểu đối với nghiên cứu sinh chương trình tiến sĩ là:\n- Tối thiểu 90 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp thạc sĩ [Source 1].\n- Tối thiểu 120 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp đại học [Source 1].",
+    "contexts": [
+      "yêu cầu của từng lĩnh vực, ngành đào tạo cụ thể. Kết quả nghiên cứu được thể hiện trong luận án tiến sĩ và những công bố khoa học có liên quan của nghiên cứu sinh.\n\n3. Khối lượng học tập tối thiểu 90 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp thạc sĩ và tối thiểu 120 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp đại học.\n\n### Điều 3. Thời gian và hình thức đào tạo\n\n1.",
+      "với yêu cầu của Khung trình độ quốc gia Việt Nam. Đảm bảo khối lượng kiến thức tối thiểu 30 tín chỉ đối với chương trình đào tạo một năm học; 45 tín chỉ đối với chương trình đào tạo một năm rưỡi và 60 tín chỉ đối với chương trình đào tạo hai năm học.\n\n### Điều 4. Công nhận kết quả học tập và chuyển đổi tín chỉ\n\n1.",
+      "của Trường.\n\n### Điều 11. Khối lượng học tập\n\n1. Khối lượng học tập được xác định bởi số tín chỉ mà sinh viên đang học. Thông thường khối lượng học tập toàn thời gian là 30 tín chỉ trong một năm học. Tùy vào mục tiêu học tập, sinh viên có thể tăng hoặc giảm khối lượng học của mình.\n\n2. Để duy trì là sinh viên toàn thời gian (chính quy), sinh viên phải đăng ký tối thiểu 80% khối lượng học tập trong một học kỳ thông thường (tương đương với 12 tín chỉ).\n\n3.",
+      "Uni nhằm đáp ứng các yêu cầu cấp bằng của VinUni. Sinh viên chính quy Sinh viên đang theo học ít nhất 80% khối lượng tín chỉ trong chương trình đào tạo. Thông thường khối lượng tín chỉ toàn thời gian một năm học phải hoàn thành là 30 tín chỉ. Ngày kết thúc Ngày sinh viên hoàn thành chương trình học và trên bằng của sinh viên chương trình học sẽ thể hiện thông tin về ngày kết thúc. Xếp hạng học lực Là chỉ số để đo tiến trình học tập của sinh viên\n\n## DANH MỤC HƯỚNG DẪN VÀ QUY TRÌNH",
+      "ơng trình đào tạo được xác định bằng số tín chỉ.\n\na) Tín chỉ là đơn vị được sử dụng để tính khối lượng học tập của học viên. Một tín chỉ được tính tương đương với 50 giờ học định mức của học viên, bao gồm giờ học được giảng dạy (giờ học lý thuyết), giờ học có hướng dẫn, tự học – tự nghiên cứu, giờ học trải nghiệm, kiểm tra, và đánh giá."
+    ],
+    "source_ids": [
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-5",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-15",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-57",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-15",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-12"
+    ],
+    "latency_seconds": 3.062,
+    "scores": {
+      "faithfulness": 1.0,
+      "answer_relevance": 0.9368341013231893,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    }
+  },
+  {
+    "case": 2,
+    "config": "A",
+    "strategy": "dense-only",
+    "question": "Thời gian đào tạo tiêu chuẩn trình độ tiến sĩ tại VinUni là bao lâu?",
+    "reference": "Thời gian tiêu chuẩn là 3 năm (36 tháng) với người có bằng thạc sĩ và 4 năm (48 tháng) với người tốt nghiệp đại học, không qua đào tạo thạc sĩ.",
+    "reference_context": "Thời gian đào tạo tiêu chuẩn của trình độ tiến sĩ từ 03 năm (36 tháng) đối với nghiên cứu sinh có bằng thạc sĩ đến 04 năm (48 tháng) đối với nghiên cứu sinh đã tốt nghiệp đại học, không qua đào tạo thạc sĩ.",
+    "answer": "Thời gian đào tạo tiêu chuẩn của trình độ tiến sĩ tại Trường Đại học VinUni là từ 03 năm (36 tháng) đối với nghiên cứu sinh có bằng thạc sĩ đến 04 năm (48 tháng) đối với nghiên cứu sinh đã tốt nghiệp đại học, không qua đào tạo thạc sĩ [Source 1].",
+    "contexts": [
+      ".\n\n### Điều 3. Thời gian và hình thức đào tạo\n\n1. Thời gian đào tạo tiêu chuẩn của trình độ tiến sĩ từ 03 năm (36 tháng) đối với nghiên cứu sinh có bằng thạc sĩ đến 04 năm (48 tháng) đối với nghiên cứu sinh đã tốt nghiệp đại học, không qua đào tạo thạc sĩ; mỗi nghiên cứu sinh có một kế hoạch học tập, nghiên cứu toàn khóa nằm trong khung thời gian đào tạo tiêu chuẩn phê duyệt kèm theo quyết định công nhận nghiên cứu sinh (theo mẫu tại Phụ lục I).\n\n2.",
+      "năm 2023 của Hiệu trưởng Trường Đại học VinUni)\n\n## KẾ HOẠCH HỌC TẬP, NGHIÊN CỨU TOÀN KHÓA CỦA NGHIÊN CỨU SINH\n\nTrường: Họ và tên nghiên cứu sinh: Tên đề tài: Ngành đào tạo: Mã ngành đào tạo:\n\nKhối lượng học tập, nghiên\n\n- Năm học | Nội dung học tập, nghiên cứu | Kết quả dự kiến\n\ncứu đăng ký\n\n- Các học phần về chuyên môn bổ | Chứng nhận | kết thúc học\n\n- Năm thứ 1 | 10 - 12 tín chỉ\n\n- sung (nếu có) | phần\n\n- Các học phần về phương pháp | Chứng nhận | kết thúc học\n\n- 04 -06 tín chỉ",
+      "năm 2023 của Hiệu trưởng Trường Đại học VinUni)\n\n## Chương I: NHỮNG QUY ĐỊNH CHUNG\n\n### Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng\n\n1. Quy chế này quy định chung về tuyển sinh, tổ chức đào tạo trình độ tiến sĩ và cấp bằng tiến sĩ.\n\n2.",
+      "---\ntitle: \"Quy chế đào tạo trình độ tiến sĩ\"\nsource: \"230515_VUNI_Quy-che-dao-tao-Tien-si.pdf\"\ndoc_type: \"legal\"\nurl: null\ndocument_code: \"VU_HT01.VN\"\nissued_date: \"2023-05-15\"\n---\n# Quy chế đào tạo trình độ tiến sĩ\n\n- **Mã số:** VU_HT01.VN\n\n- **Đơn vị phát hành:** Phòng Quản lý Đào tạo\n\n- **Ngày phát hành:** 15/05/2023\n\n- **Phạm vi áp dụng:** Toàn bộ Trường Đại học VinUni\n\nTheo dõi lịch sử tài liệu Phiên Ngày phát Đơn vị phụ trách Mô tả các thay đổi bản hành v1.0 25/6/2021 Soạn thảo: TP.",
+      "c hiện phần 3 của Luận án\n\n- trình 04 năm | bố,…\n\nLưu ý: phần in nghiêng là ví dụ về các nội dung trong kế hoạch học tập, nghiên cứu toàn khóa. Kế hoạch cụ thể của nghiên cứu sinh được xây dựng căn cứ vào quy định của Trường về chương trình đào tạo tiến sĩ đã công bố.\n\n## Phụ Lục Ii\n\n(Ban hành kèm theo Quyết định số ngày tháng năm 2023 của Hiệu trưởng Trường Đại học VinUni) DANH SÁCH CHỨNG CHỈ TIẾNG ANH MINH CHỨNG CHO TRÌNH ĐỘ NGOẠI NGỮ\n\n## CỦA NGƯỜI DỰ TUYỂN"
+    ],
+    "source_ids": [
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-6",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-94",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-2",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-0",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-96"
+    ],
+    "latency_seconds": 3.146,
+    "scores": {
+      "faithfulness": 1.0,
+      "answer_relevance": 0.9938567214373177,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    }
+  },
+  {
+    "case": 2,
+    "config": "B",
+    "strategy": "hybrid+RRF",
+    "question": "Thời gian đào tạo tiêu chuẩn trình độ tiến sĩ tại VinUni là bao lâu?",
+    "reference": "Thời gian tiêu chuẩn là 3 năm (36 tháng) với người có bằng thạc sĩ và 4 năm (48 tháng) với người tốt nghiệp đại học, không qua đào tạo thạc sĩ.",
+    "reference_context": "Thời gian đào tạo tiêu chuẩn của trình độ tiến sĩ từ 03 năm (36 tháng) đối với nghiên cứu sinh có bằng thạc sĩ đến 04 năm (48 tháng) đối với nghiên cứu sinh đã tốt nghiệp đại học, không qua đào tạo thạc sĩ.",
+    "answer": "Thời gian đào tạo tiêu chuẩn của trình độ tiến sĩ từ 03 năm (36 tháng) đối với nghiên cứu sinh có bằng thạc sĩ đến 04 năm (48 tháng) đối với nghiên cứu sinh đã tốt nghiệp đại học, không qua đào tạo thạc sĩ [Source 1].",
+    "contexts": [
+      ".\n\n### Điều 3. Thời gian và hình thức đào tạo\n\n1. Thời gian đào tạo tiêu chuẩn của trình độ tiến sĩ từ 03 năm (36 tháng) đối với nghiên cứu sinh có bằng thạc sĩ đến 04 năm (48 tháng) đối với nghiên cứu sinh đã tốt nghiệp đại học, không qua đào tạo thạc sĩ; mỗi nghiên cứu sinh có một kế hoạch học tập, nghiên cứu toàn khóa nằm trong khung thời gian đào tạo tiêu chuẩn phê duyệt kèm theo quyết định công nhận nghiên cứu sinh (theo mẫu tại Phụ lục I).\n\n2.",
+      "ực hiện quy trình phản biện độc lập và thành lập Hội đồng đánh giá luận án.\n\n3. Đào tạo trình độ tiến sĩ được thực hiện theo hình thức chính quy; nghiên cứu sinh phải dành đủ thời học tập, nghiên cứu tại Trường theo kế hoạch đã được phê duyệt; trong đó khi đăng ký đủ 30 tín chỉ trong một năm học được xác định là tập trung toàn thời gian.\n\n### Điều 4. Tiêu chuẩn của giảng viên giảng dạy trình độ tiến sĩ\n\n1. Giảng viên giảng dạy trình độ tiến sĩ phải đáp ứng những yêu cầu sau:",
+      "giáo dục).\n\n### Điều 2. Chương trình đào tạo\n\n1. Chương trình đào tạo trình độ tiến sĩ được xây dựng, thẩm định và ban hành, đáp ứng yêu cầu của Khung trình độ quốc gia Việt Nam, quy định về chuẩn chương trình đào tạo của Bộ Giáo dục và Đào tạo.\n\n2. Nghiên cứu khoa học là thành phần chính yếu và bắt buộc trong chương trình đào tạo trình độ tiến sĩ tùy theo yêu cầu của từng lĩnh vực, ngành đào tạo cụ thể.",
+      "năm 2023 của Hiệu trưởng Trường Đại học VinUni)\n\n## KẾ HOẠCH HỌC TẬP, NGHIÊN CỨU TOÀN KHÓA CỦA NGHIÊN CỨU SINH\n\nTrường: Họ và tên nghiên cứu sinh: Tên đề tài: Ngành đào tạo: Mã ngành đào tạo:\n\nKhối lượng học tập, nghiên\n\n- Năm học | Nội dung học tập, nghiên cứu | Kết quả dự kiến\n\ncứu đăng ký\n\n- Các học phần về chuyên môn bổ | Chứng nhận | kết thúc học\n\n- Năm thứ 1 | 10 - 12 tín chỉ\n\n- sung (nếu có) | phần\n\n- Các học phần về phương pháp | Chứng nhận | kết thúc học\n\n- 04 -06 tín chỉ",
+      "năm 2023 của Hiệu trưởng Trường Đại học VinUni)\n\n## Chương I: NHỮNG QUY ĐỊNH CHUNG\n\n### Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng\n\n1. Quy chế này quy định chung về tuyển sinh, tổ chức đào tạo trình độ tiến sĩ và cấp bằng tiến sĩ.\n\n2."
+    ],
+    "source_ids": [
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-6",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-8",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-4",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-94",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-2"
+    ],
+    "latency_seconds": 2.814,
+    "scores": {
+      "faithfulness": 1.0,
+      "answer_relevance": 0.8684709191404802,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    }
+  },
+  {
+    "case": 3,
+    "config": "A",
+    "strategy": "dense-only",
+    "question": "Một giáo sư được hướng dẫn độc lập tối đa bao nhiêu nghiên cứu sinh cùng lúc?",
+    "reference": "Giáo sư được hướng dẫn độc lập tối đa 7 nghiên cứu sinh tại cùng một thời điểm.",
+    "reference_context": "Tại cùng một thời điểm, người có chức danh giáo sư được hướng dẫn độc lập tối đa 07 nghiên cứu sinh.",
+    "answer": "Một giáo sư được hướng dẫn độc lập tối đa 07 nghiên cứu sinh tại cùng một thời điểm [Source 1].",
+    "contexts": [
+      "Trường và theo quy định pháp luật liên quan.\n\n2. Tại cùng một thời điểm, người có chức danh giáo sư được hướng dẫn độc lập tối đa 07 nghiên cứu sinh; người có chức danh phó giáo sư, hoặc có bằng tiến sĩ khoa học được hướng dẫn độc lập tối đa 05 nghiên cứu sinh; người có bằng tiến sĩ được hướng dẫn độc lập tối đa 03 nghiên cứu sinh. Trường hợp đồng hướng dẫn 01 nghiên cứu sinh được tính quy đổi tương đương hướng dẫn độc lập 0,5 nghiên cứu sinh.\n\n3.",
+      "đương hướng dẫn độc lập 0,5 nghiên cứu sinh.\n\n3. Người hướng dẫn nghiên cứu sinh có trách nhiệm:\n\na) Thông qua kế hoạch học tập, nghiên cứu toàn khóa và hằng năm của nghiên cứu sinh; hướng dẫn, hỗ trợ, đánh giá, theo dõi và đôn đốc nghiên cứu sinh thực hiện nhiệm vụ học tập và nghiên cứu theo kế hoạch đã thông qua;\n\nb) Đề xuất hoặc có ý kiến về những thay đổi trong quá trình học tập, nghiên cứu của nghiên cứu sinh;",
+      "nh hiện hành của pháp luật về sở hữu trí tuệ.\n\n3. Mỗi học viên có một hoặc hai người hướng dẫn luận văn, trong đó phải có một người là giảng viên cơ hữu của Trường. Tại một thời điểm, một người hướng dẫn độc lập không quá 05 học viên (tính cả số học viên thực hiện học phần tốt nghiệp của chương trình định hướng ứng dụng); trường hợp đồng hướng dẫn 02 học viên được tính tương đương hướng dẫn độc lập 01 học viên.\n\n4. Tiêu chuẩn của người hướng dẫn luận văn:",
+      "một người là giảng viên cơ hữu của cơ sở đào tạo. Tại một thời điểm, một người hướng dẫn độc lập không quá 05 học viên (tính cả số học viên thực hiện luận văn của chương trình định hướng nghiên cứu); trường hợp đồng hướng dẫn 02 học viên được tính tương đương hướng dẫn độc lập 01 học viên.\n\n5. Hội đồng đánh giá kết quả thực hiện đề án có ít nhất 03 thành viên, trong đó có chủ tịch, thư ký và ủy viên phản biện.",
+      "đồng phải là giáo sư hoặc phó giáo sư ngành phù\n\nhợp với chuyên môn của đề tài luận án, là giảng viên hoặc nghiên cứu viên cơ hữu của Trường; 01 người hướng dẫn nghiên cứu sinh có thể tham gia Hội đồng với tư cách là ủy viên;"
+    ],
+    "source_ids": [
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-19",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-20",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-41",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-55",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-64"
+    ],
+    "latency_seconds": 2.506,
+    "scores": {
+      "faithfulness": 1.0,
+      "answer_relevance": 0.9936972684099937,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    }
+  },
+  {
+    "case": 3,
+    "config": "B",
+    "strategy": "hybrid+RRF",
+    "question": "Một giáo sư được hướng dẫn độc lập tối đa bao nhiêu nghiên cứu sinh cùng lúc?",
+    "reference": "Giáo sư được hướng dẫn độc lập tối đa 7 nghiên cứu sinh tại cùng một thời điểm.",
+    "reference_context": "Tại cùng một thời điểm, người có chức danh giáo sư được hướng dẫn độc lập tối đa 07 nghiên cứu sinh.",
+    "answer": "Tại cùng một thời điểm, người có chức danh giáo sư được hướng dẫn độc lập tối đa 07 nghiên cứu sinh [Source 1].",
+    "contexts": [
+      "Trường và theo quy định pháp luật liên quan.\n\n2. Tại cùng một thời điểm, người có chức danh giáo sư được hướng dẫn độc lập tối đa 07 nghiên cứu sinh; người có chức danh phó giáo sư, hoặc có bằng tiến sĩ khoa học được hướng dẫn độc lập tối đa 05 nghiên cứu sinh; người có bằng tiến sĩ được hướng dẫn độc lập tối đa 03 nghiên cứu sinh. Trường hợp đồng hướng dẫn 01 nghiên cứu sinh được tính quy đổi tương đương hướng dẫn độc lập 0,5 nghiên cứu sinh.\n\n3.",
+      "đương hướng dẫn độc lập 0,5 nghiên cứu sinh.\n\n3. Người hướng dẫn nghiên cứu sinh có trách nhiệm:\n\na) Thông qua kế hoạch học tập, nghiên cứu toàn khóa và hằng năm của nghiên cứu sinh; hướng dẫn, hỗ trợ, đánh giá, theo dõi và đôn đốc nghiên cứu sinh thực hiện nhiệm vụ học tập và nghiên cứu theo kế hoạch đã thông qua;\n\nb) Đề xuất hoặc có ý kiến về những thay đổi trong quá trình học tập, nghiên cứu của nghiên cứu sinh;",
+      "một người là giảng viên cơ hữu của cơ sở đào tạo. Tại một thời điểm, một người hướng dẫn độc lập không quá 05 học viên (tính cả số học viên thực hiện luận văn của chương trình định hướng nghiên cứu); trường hợp đồng hướng dẫn 02 học viên được tính tương đương hướng dẫn độc lập 01 học viên.\n\n5. Hội đồng đánh giá kết quả thực hiện đề án có ít nhất 03 thành viên, trong đó có chủ tịch, thư ký và ủy viên phản biện.",
+      "đồng phải là giáo sư hoặc phó giáo sư ngành phù\n\nhợp với chuyên môn của đề tài luận án, là giảng viên hoặc nghiên cứu viên cơ hữu của Trường; 01 người hướng dẫn nghiên cứu sinh có thể tham gia Hội đồng với tư cách là ủy viên;",
+      "g sách tham khảo do các nhà xuất bản quốc tế phát hành (sau đây gọi chung là tác giả chính);\n\n### Điều 5. Tiêu chuẩn của người hướng dẫn nghiên cứu sinh\n\n1. Người hướng dẫn chính, người hướng dẫn phụ và người hướng dẫn độc lập nghiên cứu sinh phải đáp ứng các tiêu chuẩn của giảng viên giảng dạy trình độ tiến sĩ theo quy định tại Điều 4 của Quy chế này.\n\n2."
+    ],
+    "source_ids": [
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-19",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-20",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-55",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-64",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-12"
+    ],
+    "latency_seconds": 2.917,
+    "scores": {
+      "faithfulness": 1.0,
+      "answer_relevance": 0.972204344805891,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    }
+  },
+  {
+    "case": 4,
+    "config": "A",
+    "strategy": "dense-only",
+    "question": "Thông báo tuyển sinh tiến sĩ phải được công bố trước bao nhiêu ngày làm việc?",
+    "reference": "Thông báo phải được công bố công khai ít nhất 30 ngày làm việc trước khi tổ chức tuyển sinh.",
+    "reference_context": "Thông báo tuyển sinh được công bố công khai trên trang thông tin điện tử của Trường ít nhất 30 ngày làm việc trước khi tổ chức tuyển sinh.",
+    "answer": "Thông báo tuyển sinh phải được công bố công khai trên trang thông tin điện tử của Trường ít nhất 30 ngày làm việc trước khi tổ chức tuyển sinh [Source 1].",
+    "contexts": [
+      "Thông báo tuyển sinh được công bố công khai trên trang thông tin điện tử của Trường ít nhất 30 ngày làm việc trước khi tổ chức tuyển sinh, trong đó bao gồm những thông tin về đối tượng và điều kiện dự tuyển; ngành tuyển sinh và yêu cầu chuyên môn phù hợp; chỉ tiêu tuyển sinh; hồ sơ dự tuyển, kế hoạch và phương thức tuyển sinh, thời gian công bố kết quả trúng tuyển và thời gian nhập học; học phí, các chính sách miễn giảm học phí và hỗ trợ kinh phí cho nghiên cứu sinh trong quá trình học tập (nếu",
+      "a chương trình đào tạo tiến sĩ đăng ký dự tuyển;\n\nc) Có kinh nghiệm nghiên cứu thể hiện qua luận văn thạc sĩ của chương trình đào tạo định hướng nghiên cứu; hoặc bài báo, báo cáo khoa học đã công bố; hoặc có thời gian công tác từ 02 năm (24 tháng) trở lên là giảng viên, nghiên cứu viên của các Trường, tổ chức khoa học và công nghệ;\n\nd) Có dự thảo đề cương nghiên cứu và dự kiến kế hoạch học tập, nghiên cứu toàn khóa.\n\n2.",
+      "ều 8. Tuyển sinh và công nhận nghiên cứu sinh\n\n1. Việc tuyển sinh được tổ chức một hoặc nhiều lần trong năm khi đáp ứng đủ điều kiện bảo đảm chất lượng triển khai đào tạo ở trình độ tiến sĩ theo quy định hiện hành.\n\n2. Phương thức tuyển sinh theo hình thức xét tuyển bảo đảm đánh giá minh bạch, công bằng, khách quan và trung thực về kiến thức, năng lực của người dự tuyển.",
+      "tuyển\n\n1. Yêu cầu chung đối với người dự tuyển:\n\na) Đã tốt nghiệp thạc sĩ hoặc tốt nghiệp đại học hạng giỏi trở lên ngành phù hợp, hoặc tốt nghiệp trình độ tương đương bậc 7 theo Khung trình độ quốc gia Việt Nam ở một số ngành đào tạo chuyên sâu đặc thù phù hợp với ngành đào tạo tiến sĩ;\n\nb) Đáp ứng yêu cầu đầu vào theo chuẩn chương trình đào tạo do Bộ Giáo dục và Đào tạo ban hành và của chương trình đào tạo tiến sĩ đăng ký dự tuyển;",
+      "Phụ lục IV) và báo cáo đột xuất theo yêu cầu.\n\n3. Thực hiện công khai trên trang thông tin điện tử trước khi tuyển sinh và tổ chức đào tạo:\n\na) Quy chế của Trường và các quy định quản lý đào tạo có liên quan đến tuyển sinh, tổ chức đào tạo và cấp bằng tiến sĩ;\n\nb) Các điều kiện bảo đảm chất lượng theo quy định hiện hành của Bộ Giáo dục và Đào tạo và những thông tin khác theo quy định.\n\n## Phụ Lục I\n\n(Ban hành kèm theo Quyết định số ngày tháng năm 2023 của Hiệu trưởng Trường Đại học VinUni)"
+    ],
+    "source_ids": [
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-28",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-23",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-26",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-22",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-93"
+    ],
+    "latency_seconds": 2.816,
+    "scores": {
+      "faithfulness": 1.0,
+      "answer_relevance": 0.8798196121864542,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    }
+  },
+  {
+    "case": 4,
+    "config": "B",
+    "strategy": "hybrid+RRF",
+    "question": "Thông báo tuyển sinh tiến sĩ phải được công bố trước bao nhiêu ngày làm việc?",
+    "reference": "Thông báo phải được công bố công khai ít nhất 30 ngày làm việc trước khi tổ chức tuyển sinh.",
+    "reference_context": "Thông báo tuyển sinh được công bố công khai trên trang thông tin điện tử của Trường ít nhất 30 ngày làm việc trước khi tổ chức tuyển sinh.",
+    "answer": "Thông báo tuyển sinh phải được công bố công khai trên trang thông tin điện tử của Trường ít nhất 30 ngày làm việc trước khi tổ chức tuyển sinh [Source 1].",
+    "contexts": [
+      "Thông báo tuyển sinh được công bố công khai trên trang thông tin điện tử của Trường ít nhất 30 ngày làm việc trước khi tổ chức tuyển sinh, trong đó bao gồm những thông tin về đối tượng và điều kiện dự tuyển; ngành tuyển sinh và yêu cầu chuyên môn phù hợp; chỉ tiêu tuyển sinh; hồ sơ dự tuyển, kế hoạch và phương thức tuyển sinh, thời gian công bố kết quả trúng tuyển và thời gian nhập học; học phí, các chính sách miễn giảm học phí và hỗ trợ kinh phí cho nghiên cứu sinh trong quá trình học tập (nếu",
+      "a chương trình đào tạo tiến sĩ đăng ký dự tuyển;\n\nc) Có kinh nghiệm nghiên cứu thể hiện qua luận văn thạc sĩ của chương trình đào tạo định hướng nghiên cứu; hoặc bài báo, báo cáo khoa học đã công bố; hoặc có thời gian công tác từ 02 năm (24 tháng) trở lên là giảng viên, nghiên cứu viên của các Trường, tổ chức khoa học và công nghệ;\n\nd) Có dự thảo đề cương nghiên cứu và dự kiến kế hoạch học tập, nghiên cứu toàn khóa.\n\n2.",
+      "Phụ lục IV) và báo cáo đột xuất theo yêu cầu.\n\n3. Thực hiện công khai trên trang thông tin điện tử trước khi tuyển sinh và tổ chức đào tạo:\n\na) Quy chế của Trường và các quy định quản lý đào tạo có liên quan đến tuyển sinh, tổ chức đào tạo và cấp bằng tiến sĩ;\n\nb) Các điều kiện bảo đảm chất lượng theo quy định hiện hành của Bộ Giáo dục và Đào tạo và những thông tin khác theo quy định.\n\n## Phụ Lục I\n\n(Ban hành kèm theo Quyết định số ngày tháng năm 2023 của Hiệu trưởng Trường Đại học VinUni)",
+      "ều 8. Tuyển sinh và công nhận nghiên cứu sinh\n\n1. Việc tuyển sinh được tổ chức một hoặc nhiều lần trong năm khi đáp ứng đủ điều kiện bảo đảm chất lượng triển khai đào tạo ở trình độ tiến sĩ theo quy định hiện hành.\n\n2. Phương thức tuyển sinh theo hình thức xét tuyển bảo đảm đánh giá minh bạch, công bằng, khách quan và trung thực về kiến thức, năng lực của người dự tuyển.",
+      "g tài liệu khác theo quy định của Nhà trường.\n\n5. Phòng Quản lý Đào tạo thực hiện việc cấp bằng tiến sĩ cho nghiên cứu sinh trong thời hạn 30 ngày làm việc kể từ ngày quyết định công nhận trình độ tiến sĩ có hiệu lực.\n\n## Chương V: TỔ CHỨC THỰC HIỆN\n\n### Điều 20. Xây dựng và thực hiện quy chế\n\n1. Căn cứ Quy chế này và những quy định hiện hành khác có liên quan, Viện Đào tạo, Phòng Quản lý Đào tạo và các phòng ban liên quan có trách nhiệm:"
+    ],
+    "source_ids": [
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-28",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-23",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-93",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-26",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-83"
+    ],
+    "latency_seconds": 2.842,
+    "scores": {
+      "faithfulness": 1.0,
+      "answer_relevance": 0.8318368621223577,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    }
+  },
+  {
+    "case": 5,
+    "config": "A",
+    "strategy": "dense-only",
+    "question": "Một tín chỉ trong chương trình thạc sĩ tương đương bao nhiêu giờ học định mức?",
+    "reference": "Một tín chỉ tương đương 50 giờ học định mức của học viên.",
+    "reference_context": "Một tín chỉ được tính tương đương với 50 giờ học định mức của học viên, bao gồm giờ học được giảng dạy, giờ học có hướng dẫn, tự học, tự nghiên cứu, giờ học trải nghiệm, kiểm tra và đánh giá.",
+    "answer": "Một tín chỉ được tính tương đương với 50 giờ học định mức của học viên [Source 1].",
+    "contexts": [
+      "ơng trình đào tạo được xác định bằng số tín chỉ.\n\na) Tín chỉ là đơn vị được sử dụng để tính khối lượng học tập của học viên. Một tín chỉ được tính tương đương với 50 giờ học định mức của học viên, bao gồm giờ học được giảng dạy (giờ học lý thuyết), giờ học có hướng dẫn, tự học – tự nghiên cứu, giờ học trải nghiệm, kiểm tra, và đánh giá.",
+      "sử dụng để tính khối lượng học tập của sinh viên. Một tín chỉ được tính tương đương với 50 giờ học định mức của sinh viên, bao gồm giờ học được giảng dạy (giờ học lý thuyết), giờ học có hướng dẫn, tự học – tự nghiên cứu, giờ học trải nghiệm, kiểm tra, và đánh giá.\n\nb) Một tín chỉ được quy định bằng 15 giờ học lý thuyết; 30 - 45 giờ học thực hành, thí nghiệm hoặc thảo luận; 45 - 90 giờ thực tập tại cơ sở (doanh nghiệp, cộng",
+      "huyết và thực hành, hoặc lý thuyết và th ực địa). Trong nh ững trường hợp như vậy, tổng số giờ học sẽ được điều chỉnh để tương đương với các khóa học khác có yêu cầu tương tự. Một giờ giảng tương đương 50 phút.\n\nc) Khối lượng học tập tối thiểu của một chương trình đào tạo phải phù hợp với yêu cầu của Khung trình độ quốc gia Việt Nam.",
+      "ọc với trọng số là số tín chỉ của từng học phần.\n\n## Chương II: TỔ CHỨC ĐÀO TẠO\n\n### Điều 7. Thời gian và kế hoạch đào tạo\n\n1. Trường tổ chức đào tạo theo khóa học, năm học và học kỳ.\n\na) Khóa học: là thời gian tiêu chuẩn được thiết kế để sinh viên hoàn thành một chương trình cụ thể. Thời gian thiết kế của mỗi chương trình không dưới 180 tín chỉ đối với chương trình đại học 6 năm và 120 tín chỉ đối với chương trình đại học 4 năm.\n\nb) Mỗi năm học có hai học kỳ chính, kỳ học Mùa Thu và Mùa Xuân.",
+      "cứu, giờ học trải nghiệm, kiểm tra, và đánh giá.\n\nb) Một tín chỉ được quy định bằng 15 giờ học lý thuyết; 30 - 45 giờ học thực hành, thí nghiệm hoặc thảo luận; 45 - 90 giờ thực tập tại cơ sở (doanh nghiệp, cộng đồng, hoặc bệnh viện); 45 - 60 giờ làm tiểu luận, bài tập lớn hoặc đồ án, khoá luận tốt nghiệp hoặc chuyên đề thực tập. Một khóa học có thể bao gồm các phương thức giảng dạy và học tập khác nhau (chẳng hạn như lý thuyết và thực hành, hoặc lý thuyết và th ực địa)."
+    ],
+    "source_ids": [
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-12",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-31",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-14",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-42",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-13"
+    ],
+    "latency_seconds": 2.933,
+    "scores": {
+      "faithfulness": 0.0,
+      "answer_relevance": 0.8947302695287023,
+      "context_recall": 1.0,
+      "context_precision": 0.99999999995
+    }
+  },
+  {
+    "case": 5,
+    "config": "B",
+    "strategy": "hybrid+RRF",
+    "question": "Một tín chỉ trong chương trình thạc sĩ tương đương bao nhiêu giờ học định mức?",
+    "reference": "Một tín chỉ tương đương 50 giờ học định mức của học viên.",
+    "reference_context": "Một tín chỉ được tính tương đương với 50 giờ học định mức của học viên, bao gồm giờ học được giảng dạy, giờ học có hướng dẫn, tự học, tự nghiên cứu, giờ học trải nghiệm, kiểm tra và đánh giá.",
+    "answer": "Một tín chỉ được tính tương đương với 50 giờ học định mức của học viên [Source 1].",
+    "contexts": [
+      "ơng trình đào tạo được xác định bằng số tín chỉ.\n\na) Tín chỉ là đơn vị được sử dụng để tính khối lượng học tập của học viên. Một tín chỉ được tính tương đương với 50 giờ học định mức của học viên, bao gồm giờ học được giảng dạy (giờ học lý thuyết), giờ học có hướng dẫn, tự học – tự nghiên cứu, giờ học trải nghiệm, kiểm tra, và đánh giá.",
+      "sử dụng để tính khối lượng học tập của sinh viên. Một tín chỉ được tính tương đương với 50 giờ học định mức của sinh viên, bao gồm giờ học được giảng dạy (giờ học lý thuyết), giờ học có hướng dẫn, tự học – tự nghiên cứu, giờ học trải nghiệm, kiểm tra, và đánh giá.\n\nb) Một tín chỉ được quy định bằng 15 giờ học lý thuyết; 30 - 45 giờ học thực hành, thí nghiệm hoặc thảo luận; 45 - 90 giờ thực tập tại cơ sở (doanh nghiệp, cộng",
+      "huyết và thực hành, hoặc lý thuyết và th ực địa). Trong nh ững trường hợp như vậy, tổng số giờ học sẽ được điều chỉnh để tương đương với các khóa học khác có yêu cầu tương tự. Một giờ giảng tương đương 50 phút.\n\nc) Khối lượng học tập tối thiểu của một chương trình đào tạo phải phù hợp với yêu cầu của Khung trình độ quốc gia Việt Nam.",
+      "đương với các khóa học khác có yêu cầu tương tự.\n\nc) Đối với những học phần lý thuyết hoặc thực hành, thí nghiệm, để tiếp thu được một tín chỉ sinh viên cần phải dành ít nhất 30 giờ tự học, chuẩn bị cá nhân.\n\n5. Các học phần phi tín chỉ: một số học phần như thực tập/thực hành, học phần trải nghiệm, học phần hoạt động cộng đồng không tính tín chỉ, nhưng là các hoạt động học tập mà sinh viên bắt buộc phải tham gia như một phần của chương trình giảng dạy.\n\n### Điều 5. Thời gian hoạt động giảng dạy",
+      "giờ trong một tuần và 04 giờ trong một ngày.\n\n5. Phòng Quản lý Đào tạo quy định quy trình học viên đăng ký học tập trước k hi bắt đầu mỗi học kỳ theo từng chương trình đào tạo; khối lượng tín chỉ tối đa và tối thiểu trong mỗi học kỳ học viên được phép đăng ký. Trường hợp học viên có nguyện vọng đăng kí học ít hơn số tín chỉ tối thiểu trong một học kì phải được sự đồng ý của Viện trưởng đào tạo.\n\n6."
+    ],
+    "source_ids": [
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-12",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-31",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-14",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-33",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-27"
+    ],
+    "latency_seconds": 2.864,
+    "scores": {
+      "faithfulness": 0.0,
+      "answer_relevance": 0.8947302695287023,
+      "context_recall": 1.0,
+      "context_precision": 0.99999999995
+    }
+  },
+  {
+    "case": 6,
+    "config": "A",
+    "strategy": "dense-only",
+    "question": "Chương trình thạc sĩ hai năm phải có tối thiểu bao nhiêu tín chỉ?",
+    "reference": "Chương trình thạc sĩ hai năm phải có tối thiểu 60 tín chỉ.",
+    "reference_context": "Đảm bảo khối lượng kiến thức tối thiểu 30 tín chỉ đối với chương trình đào tạo một năm học; 45 tín chỉ đối với chương trình đào tạo một năm rưỡi và 60 tín chỉ đối với chương trình đào tạo hai năm học.",
+    "answer": "Chương trình đào tạo thạc sĩ hai năm học phải đảm bảo khối lượng kiến thức tối thiểu là 60 tín chỉ [Source 1].",
+    "contexts": [
+      "với yêu cầu của Khung trình độ quốc gia Việt Nam. Đảm bảo khối lượng kiến thức tối thiểu 30 tín chỉ đối với chương trình đào tạo một năm học; 45 tín chỉ đối với chương trình đào tạo một năm rưỡi và 60 tín chỉ đối với chương trình đào tạo hai năm học.\n\n### Điều 4. Công nhận kết quả học tập và chuyển đổi tín chỉ\n\n1.",
+      "giáo dục).\n\n### Điều 2. Chương trình đào tạo\n\n1. Chương trình đào tạo trình độ thạc sĩ được xây dựng, thẩm định và ban hành theo định hướng nghiên cứu hoặc định hướng ứng dụng, đáp ứng yêu cầu của Khung trình độ quốc gia Việt Nam, quy định về chuẩn chương trình đào tạo của Bộ Giáo dục và Đào tạo và quy trình xây dựng chương trình đào tạo tại Trường.\n\n2. Chương trình đào tạo được thực hiện để cấp bằng thạc sĩ theo quy định của Quy chế này; không cấp thêm một văn bằng giáo dục đại học khác.\n\n3.",
+      "của học phần trong chương trình đào tạo thạc sĩ;\n\nb) Điểm đánh giá đạt từ điểm C (hoặc quy đổi tương đương) trở lên;\n\nc) Thời điểm hoàn thành không quá 05 năm tính tới thời điểm xét công nhận, chuyển đổi.\n\n4. Chỉ xem xét bảng điểm của học viên đã được xác định rõ thời lượng đào tạo; trường hợp chưa xác định rõ thì phải có xác nhận của cơ sở đào tạo nơi cấp bảng điểm về khối lượng đào tạo được ghi trong bảng điểm.\n\n5.",
+      "ọc với trọng số là số tín chỉ của từng học phần.\n\n## Chương II: TỔ CHỨC ĐÀO TẠO\n\n### Điều 7. Thời gian và kế hoạch đào tạo\n\n1. Trường tổ chức đào tạo theo khóa học, năm học và học kỳ.\n\na) Khóa học: là thời gian tiêu chuẩn được thiết kế để sinh viên hoàn thành một chương trình cụ thể. Thời gian thiết kế của mỗi chương trình không dưới 180 tín chỉ đối với chương trình đại học 6 năm và 120 tín chỉ đối với chương trình đại học 4 năm.\n\nb) Mỗi năm học có hai học kỳ chính, kỳ học Mùa Thu và Mùa Xuân.",
+      "ọc) theo quy định của Bộ Giáo dục và Đào tạo.\n\n5. Cấu trúc chương trình đào tạo:\n\na) Định hướng nghiên cứu: khối lượng nghiên cứu khoa học từ 24 đến 30 tín chỉ, bao gồm 12 đến 15 tín chỉ cho luận văn, 12 đến 15 tín chỉ cho các đồ án, dự án, chuyên đề nghiên cứu khác.\n\nb) Định hướng ứng dụng: thực tập từ 6 đến 9 tín chỉ; học phần tốt nghiệp từ 6 đến 9 tín chỉ dưới hình thức đề án, đồ án hoặc dự án.\n\n6."
+    ],
+    "source_ids": [
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-15",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-5",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-19",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-42",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-7"
+    ],
+    "latency_seconds": 2.475,
+    "scores": {
+      "faithfulness": 1.0,
+      "answer_relevance": 0.9611999290716227,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    }
+  },
+  {
+    "case": 6,
+    "config": "B",
+    "strategy": "hybrid+RRF",
+    "question": "Chương trình thạc sĩ hai năm phải có tối thiểu bao nhiêu tín chỉ?",
+    "reference": "Chương trình thạc sĩ hai năm phải có tối thiểu 60 tín chỉ.",
+    "reference_context": "Đảm bảo khối lượng kiến thức tối thiểu 30 tín chỉ đối với chương trình đào tạo một năm học; 45 tín chỉ đối với chương trình đào tạo một năm rưỡi và 60 tín chỉ đối với chương trình đào tạo hai năm học.",
+    "answer": "Chương trình đào tạo thạc sĩ hai năm học phải đảm bảo khối lượng kiến thức tối thiểu 60 tín chỉ [Source 1].",
+    "contexts": [
+      "với yêu cầu của Khung trình độ quốc gia Việt Nam. Đảm bảo khối lượng kiến thức tối thiểu 30 tín chỉ đối với chương trình đào tạo một năm học; 45 tín chỉ đối với chương trình đào tạo một năm rưỡi và 60 tín chỉ đối với chương trình đào tạo hai năm học.\n\n### Điều 4. Công nhận kết quả học tập và chuyển đổi tín chỉ\n\n1.",
+      "ọc với trọng số là số tín chỉ của từng học phần.\n\n## Chương II: TỔ CHỨC ĐÀO TẠO\n\n### Điều 7. Thời gian và kế hoạch đào tạo\n\n1. Trường tổ chức đào tạo theo khóa học, năm học và học kỳ.\n\na) Khóa học: là thời gian tiêu chuẩn được thiết kế để sinh viên hoàn thành một chương trình cụ thể. Thời gian thiết kế của mỗi chương trình không dưới 180 tín chỉ đối với chương trình đại học 6 năm và 120 tín chỉ đối với chương trình đại học 4 năm.\n\nb) Mỗi năm học có hai học kỳ chính, kỳ học Mùa Thu và Mùa Xuân.",
+      "yêu cầu của từng lĩnh vực, ngành đào tạo cụ thể. Kết quả nghiên cứu được thể hiện trong luận án tiến sĩ và những công bố khoa học có liên quan của nghiên cứu sinh.\n\n3. Khối lượng học tập tối thiểu 90 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp thạc sĩ và tối thiểu 120 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp đại học.\n\n### Điều 3. Thời gian và hình thức đào tạo\n\n1.",
+      "giáo dục).\n\n### Điều 2. Chương trình đào tạo\n\n1. Chương trình đào tạo trình độ thạc sĩ được xây dựng, thẩm định và ban hành theo định hướng nghiên cứu hoặc định hướng ứng dụng, đáp ứng yêu cầu của Khung trình độ quốc gia Việt Nam, quy định về chuẩn chương trình đào tạo của Bộ Giáo dục và Đào tạo và quy trình xây dựng chương trình đào tạo tại Trường.\n\n2. Chương trình đào tạo được thực hiện để cấp bằng thạc sĩ theo quy định của Quy chế này; không cấp thêm một văn bằng giáo dục đại học khác.\n\n3.",
+      "của học phần trong chương trình đào tạo thạc sĩ;\n\nb) Điểm đánh giá đạt từ điểm C (hoặc quy đổi tương đương) trở lên;\n\nc) Thời điểm hoàn thành không quá 05 năm tính tới thời điểm xét công nhận, chuyển đổi.\n\n4. Chỉ xem xét bảng điểm của học viên đã được xác định rõ thời lượng đào tạo; trường hợp chưa xác định rõ thì phải có xác nhận của cơ sở đào tạo nơi cấp bảng điểm về khối lượng đào tạo được ghi trong bảng điểm.\n\n5."
+    ],
+    "source_ids": [
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-15",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-42",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-5",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-5",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-19"
+    ],
+    "latency_seconds": 2.65,
+    "scores": {
+      "faithfulness": 1.0,
+      "answer_relevance": 0.961392948535453,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    }
+  },
+  {
+    "case": 7,
+    "config": "A",
+    "strategy": "dense-only",
+    "question": "Luận văn thạc sĩ định hướng nghiên cứu có bao nhiêu tín chỉ và thực hiện tối thiểu bao lâu?",
+    "reference": "Luận văn có khối lượng 12–15 tín chỉ và được thực hiện trong ít nhất 6 tháng.",
+    "reference_context": "Học viên theo học chương trình định hướng nghiên cứu phải thực hiện một đề tài nghiên cứu có khối lượng từ 12 đến 15 tín chỉ, kết quả được thể hiện bằng luận văn. Học viên thực hiện luận văn trong thời gian ít nhất 06 tháng.",
+    "answer": "Theo các tài liệu được cung cấp:\n\n- Khối lượng của luận văn đối với học viên theo học chương trình định hướng nghiên cứu là từ 12 đến 15 tín chỉ [Source 1, Source 5].\n- Thời gian thực hiện luận văn là ít nhất 06 tháng [Source 1].",
+    "contexts": [
+      "ẬN TỐT NGHIỆP\n\n### Điều 8. Hướng dẫn luận văn\n\n1. Học viên theo học chương trình định hướng nghiên cứu phải thực hiện một đề tài nghiên cứu có khối lượng từ 12 đến 15 tín chỉ, kết quả được thể hiện bằng luận văn. Học viên thực hiện luận văn trong thời gian ít nhất 06 tháng.\n\n2. Luận văn là một báo cáo khoa học, tổng hợp các kết quả nghiên cứu chính của học viên, đáp ứng các yêu cầu sau:",
+      "ọc) theo quy định của Bộ Giáo dục và Đào tạo.\n\n5. Cấu trúc chương trình đào tạo:\n\na) Định hướng nghiên cứu: khối lượng nghiên cứu khoa học từ 24 đến 30 tín chỉ, bao gồm 12 đến 15 tín chỉ cho luận văn, 12 đến 15 tín chỉ cho các đồ án, dự án, chuyên đề nghiên cứu khác.\n\nb) Định hướng ứng dụng: thực tập từ 6 đến 9 tín chỉ; học phần tốt nghiệp từ 6 đến 9 tín chỉ dưới hình thức đề án, đồ án hoặc dự án.\n\n6.",
+      "áp | Chứng nhận | kết thúc học\n\n- 04 -06 tín chỉ\n\n- nghiên cứu | phần\n\nChương Tổng quan về vấn đề\n\n- Năm thứ 2 | Thực hiện phần 1 của Luận án | đến 24 tín chỉ\n\n- nghiên cứu, | phương pháp\n\nnghiên cứu,...\n\n- Luận án | và các bài công\n\n- Năm thứ 3 | Thực hiện phần 2 của Luận án | đến 30 tín chỉ\n\nbố,…\n\n- Số tín chỉ còn lại của chương Luận | án | và các bài công\n\n- Năm thứ 4 | Thực hiện phần 3 của Luận án\n\n- trình 04 năm | bố,…",
+      "yêu cầu của từng lĩnh vực, ngành đào tạo cụ thể. Kết quả nghiên cứu được thể hiện trong luận án tiến sĩ và những công bố khoa học có liên quan của nghiên cứu sinh.\n\n3. Khối lượng học tập tối thiểu 90 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp thạc sĩ và tối thiểu 120 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp đại học.\n\n### Điều 3. Thời gian và hình thức đào tạo\n\n1.",
+      "tốt nghiệp chương trình định hướng ứng\n\ndụng\n\n1. Học viên theo học chương trình định hướng ứng dụng phải thực hiện một học phần tốt nghiệp từ 6 đến 9 tín chỉ dưới hình thức đề án, đồ án hoặc dự án (sau đây gọi chu ng là đề án). Học viên thực hiện đề án trong thời gian ít nhất 03 tháng.\n\n2. Đề án được tổ chức đánh giá bằng hình thức bảo vệ trước hội đồng. Buổi bảo vệ được tổ chức công khai trừ những đề tài thuộc các lĩnh vực cần bảo mật thực hiện theo quy định của Nhà nước.\n\n3."
+    ],
+    "source_ids": [
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-39",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-7",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-95",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-5",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-52"
+    ],
+    "latency_seconds": 3.147,
+    "scores": {
+      "faithfulness": 1.0,
+      "answer_relevance": 0.7067878775928977,
+      "context_recall": 1.0,
+      "context_precision": 0.99999999995
+    }
+  },
+  {
+    "case": 7,
+    "config": "B",
+    "strategy": "hybrid+RRF",
+    "question": "Luận văn thạc sĩ định hướng nghiên cứu có bao nhiêu tín chỉ và thực hiện tối thiểu bao lâu?",
+    "reference": "Luận văn có khối lượng 12–15 tín chỉ và được thực hiện trong ít nhất 6 tháng.",
+    "reference_context": "Học viên theo học chương trình định hướng nghiên cứu phải thực hiện một đề tài nghiên cứu có khối lượng từ 12 đến 15 tín chỉ, kết quả được thể hiện bằng luận văn. Học viên thực hiện luận văn trong thời gian ít nhất 06 tháng.",
+    "answer": "Theo quy định đối với chương trình định hướng nghiên cứu:\n- Luận văn thạc sĩ có khối lượng từ 12 đến 15 tín chỉ [Source 1, Source 5].\n- Thời gian thực hiện luận văn ít nhất là 06 tháng [Source 1].",
+    "contexts": [
+      "ẬN TỐT NGHIỆP\n\n### Điều 8. Hướng dẫn luận văn\n\n1. Học viên theo học chương trình định hướng nghiên cứu phải thực hiện một đề tài nghiên cứu có khối lượng từ 12 đến 15 tín chỉ, kết quả được thể hiện bằng luận văn. Học viên thực hiện luận văn trong thời gian ít nhất 06 tháng.\n\n2. Luận văn là một báo cáo khoa học, tổng hợp các kết quả nghiên cứu chính của học viên, đáp ứng các yêu cầu sau:",
+      "ọc) theo quy định của Bộ Giáo dục và Đào tạo.\n\n5. Cấu trúc chương trình đào tạo:\n\na) Định hướng nghiên cứu: khối lượng nghiên cứu khoa học từ 24 đến 30 tín chỉ, bao gồm 12 đến 15 tín chỉ cho luận văn, 12 đến 15 tín chỉ cho các đồ án, dự án, chuyên đề nghiên cứu khác.\n\nb) Định hướng ứng dụng: thực tập từ 6 đến 9 tín chỉ; học phần tốt nghiệp từ 6 đến 9 tín chỉ dưới hình thức đề án, đồ án hoặc dự án.\n\n6.",
+      "yêu cầu của từng lĩnh vực, ngành đào tạo cụ thể. Kết quả nghiên cứu được thể hiện trong luận án tiến sĩ và những công bố khoa học có liên quan của nghiên cứu sinh.\n\n3. Khối lượng học tập tối thiểu 90 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp thạc sĩ và tối thiểu 120 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp đại học.\n\n### Điều 3. Thời gian và hình thức đào tạo\n\n1.",
+      "áp | Chứng nhận | kết thúc học\n\n- 04 -06 tín chỉ\n\n- nghiên cứu | phần\n\nChương Tổng quan về vấn đề\n\n- Năm thứ 2 | Thực hiện phần 1 của Luận án | đến 24 tín chỉ\n\n- nghiên cứu, | phương pháp\n\nnghiên cứu,...\n\n- Luận án | và các bài công\n\n- Năm thứ 3 | Thực hiện phần 2 của Luận án | đến 30 tín chỉ\n\nbố,…\n\n- Số tín chỉ còn lại của chương Luận | án | và các bài công\n\n- Năm thứ 4 | Thực hiện phần 3 của Luận án\n\n- trình 04 năm | bố,…",
+      "ều 1. Phạm vi điều chỉnh và đối tượng áp dụng\n\n1. Văn bản này quy định về đào tạo trình độ thạc sĩ, cấp bằng thạc sĩ tại Trường Đại học VinUni (sau đây gọi tắt là Trường), bao gồm: quy định chung; tổ chức và quản lý đào tạo; đánh giá, xử lí kết quả học tập, tổ chức thực hiện luận văn, đề án; các quy định khác trong quá trình học tập và tổ chức thực hiện.\n\n2."
+    ],
+    "source_ids": [
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-39",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-7",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-5",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-95",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-2"
+    ],
+    "latency_seconds": 13.734,
+    "scores": {
+      "faithfulness": 1.0,
+      "answer_relevance": 0.9083061126349664,
+      "context_recall": 1.0,
+      "context_precision": 0.99999999995
+    }
+  },
+  {
+    "case": 8,
+    "config": "A",
+    "strategy": "dense-only",
+    "question": "Sau khi có quyết định công nhận tốt nghiệp, bằng thạc sĩ được cấp trong bao lâu?",
+    "reference": "Bằng thạc sĩ được cấp trong thời hạn 1 tháng kể từ ngày có quyết định công nhận tốt nghiệp.",
+    "reference_context": "Phòng Quản lý Đào tạo thực hiện cấp bằng thạc sĩ cho học viên trong thời hạn 01 tháng tính từ ngày có quyết định công nhận tốt nghiệp.",
+    "answer": "Phòng Quản lý Đào tạo thực hiện cấp bằng thạc sĩ cho học viên trong thời hạn 01 tháng tính từ ngày có quyết định công nhận tốt nghiệp [Source 1].",
+    "contexts": [
+      "ng chính ghi trên văn bằng, phụ lục văn bằng.\n\n3. Phòng Quản lý Đào tạo thực hiện cấp bằng thạc sĩ cho học viên trong thời hạn 01 tháng tính từ ngày có quyết định công nhận tốt nghiệp và cung cấp hệ thống tra cứu văn bằng tốt nghiệp trên cổng thông tin điện tử của Trường phục vụ công tác hậu kiểm, xác minh văn bằng tốt nghiệp.\n\n4.",
+      "hiệp, xếp hạng tốt nghiệp và cấp bằng thạc sĩ\n\n1. Điều kiện để học viên được công nhận tốt nghiệp:\n\na) Đã hoàn thành các học phần của chương trình đào tạo và bảo vệ luận văn, đề án đạt yêu cầu;",
+      "của học phần trong chương trình đào tạo thạc sĩ;\n\nb) Điểm đánh giá đạt từ điểm C (hoặc quy đổi tương đương) trở lên;\n\nc) Thời điểm hoàn thành không quá 05 năm tính tới thời điểm xét công nhận, chuyển đổi.\n\n4. Chỉ xem xét bảng điểm của học viên đã được xác định rõ thời lượng đào tạo; trường hợp chưa xác định rõ thì phải có xác nhận của cơ sở đào tạo nơi cấp bảng điểm về khối lượng đào tạo được ghi trong bảng điểm.\n\n5.",
+      "vị có liên quan đến quá trình đào tạo (nếu có).\n\nb) Hội đồng căn cứ vào điều kiện tốt nghiệp để xét, lập danh sách những học viên đủ điều kiện, đề nghị Hiệu trưởng công nhận tốt nghiệp.\n\nc) Hiệu trưởng ra Quyết định công nhận tốt nghiệp, cấp bằng thạc sĩ và phụ lục văn bằng cho học viên theo đề nghị của hội đồng xét tốt nghiệp và tuân thủ các quy định hiện hành liên quan đến quản lý văn bằng và nội dung chính ghi trên văn bằng, phụ lục văn bằng.\n\n3.",
+      "ở lên ngành khác mà chương trình được thực hiện hoàn toàn bằng ngôn ngữ nước ngoài;\n\nc) Hoàn thành các trách nhiệm th eo quy định của Trường; không bị truy cứu trách nhiệm hình sự và không trong thời gian bị kỷ luật, đình chỉ học tập.\n\n2. Phòng Quản lý Đào tạo tổ chức xét và ra quyết định công nhận tốt nghiệp trong thời hạn 02 tháng tính từ ngày học viên bảo vệ thành công luận văn, đề án; tối đa thêm 03 tháng trong trường hợp phải tổ chức thẩm định luận văn, đề án."
+    ],
+    "source_ids": [
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-64",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-59",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-19",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-63",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-61"
+    ],
+    "latency_seconds": 8.74,
+    "scores": {
+      "faithfulness": 1.0,
+      "answer_relevance": 0.7617662969515686,
+      "context_recall": 1.0,
+      "context_precision": 0.9999999999
+    }
+  },
+  {
+    "case": 8,
+    "config": "B",
+    "strategy": "hybrid+RRF",
+    "question": "Sau khi có quyết định công nhận tốt nghiệp, bằng thạc sĩ được cấp trong bao lâu?",
+    "reference": "Bằng thạc sĩ được cấp trong thời hạn 1 tháng kể từ ngày có quyết định công nhận tốt nghiệp.",
+    "reference_context": "Phòng Quản lý Đào tạo thực hiện cấp bằng thạc sĩ cho học viên trong thời hạn 01 tháng tính từ ngày có quyết định công nhận tốt nghiệp.",
+    "answer": "Phòng Quản lý Đào tạo thực hiện cấp bằng thạc sĩ cho học viên trong thời hạn 01 tháng tính từ ngày có quyết định công nhận tốt nghiệp [Source 1].",
+    "contexts": [
+      "ng chính ghi trên văn bằng, phụ lục văn bằng.\n\n3. Phòng Quản lý Đào tạo thực hiện cấp bằng thạc sĩ cho học viên trong thời hạn 01 tháng tính từ ngày có quyết định công nhận tốt nghiệp và cung cấp hệ thống tra cứu văn bằng tốt nghiệp trên cổng thông tin điện tử của Trường phục vụ công tác hậu kiểm, xác minh văn bằng tốt nghiệp.\n\n4.",
+      "vị có liên quan đến quá trình đào tạo (nếu có).\n\nb) Hội đồng căn cứ vào điều kiện tốt nghiệp để xét, lập danh sách những học viên đủ điều kiện, đề nghị Hiệu trưởng công nhận tốt nghiệp.\n\nc) Hiệu trưởng ra Quyết định công nhận tốt nghiệp, cấp bằng thạc sĩ và phụ lục văn bằng cho học viên theo đề nghị của hội đồng xét tốt nghiệp và tuân thủ các quy định hiện hành liên quan đến quản lý văn bằng và nội dung chính ghi trên văn bằng, phụ lục văn bằng.\n\n3.",
+      "hiệp, xếp hạng tốt nghiệp và cấp bằng thạc sĩ\n\n1. Điều kiện để học viên được công nhận tốt nghiệp:\n\na) Đã hoàn thành các học phần của chương trình đào tạo và bảo vệ luận văn, đề án đạt yêu cầu;",
+      ".\n\n### Điều 3. Thời gian và hình thức đào tạo\n\n1. Thời gian đào tạo tiêu chuẩn của trình độ tiến sĩ từ 03 năm (36 tháng) đối với nghiên cứu sinh có bằng thạc sĩ đến 04 năm (48 tháng) đối với nghiên cứu sinh đã tốt nghiệp đại học, không qua đào tạo thạc sĩ; mỗi nghiên cứu sinh có một kế hoạch học tập, nghiên cứu toàn khóa nằm trong khung thời gian đào tạo tiêu chuẩn phê duyệt kèm theo quyết định công nhận nghiên cứu sinh (theo mẫu tại Phụ lục I).\n\n2.",
+      "của học phần trong chương trình đào tạo thạc sĩ;\n\nb) Điểm đánh giá đạt từ điểm C (hoặc quy đổi tương đương) trở lên;\n\nc) Thời điểm hoàn thành không quá 05 năm tính tới thời điểm xét công nhận, chuyển đổi.\n\n4. Chỉ xem xét bảng điểm của học viên đã được xác định rõ thời lượng đào tạo; trường hợp chưa xác định rõ thì phải có xác nhận của cơ sở đào tạo nơi cấp bảng điểm về khối lượng đào tạo được ghi trong bảng điểm.\n\n5."
+    ],
+    "source_ids": [
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-64",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-63",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-59",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-6",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-19"
+    ],
+    "latency_seconds": 8.556,
+    "scores": {}
+  },
+  {
+    "case": 9,
+    "config": "A",
+    "strategy": "dense-only",
+    "question": "Sinh viên đại học phải đăng ký bao nhiêu tín chỉ để duy trì trạng thái toàn thời gian?",
+    "reference": "Sinh viên phải đăng ký tối thiểu 80% khối lượng học tập của học kỳ thông thường, tương đương 12 tín chỉ.",
+    "reference_context": "Để duy trì là sinh viên toàn thời gian (chính quy), sinh viên phải đăng ký tối thiểu 80% khối lượng học tập trong một học kỳ thông thường (tương đương với 12 tín chỉ).",
+    "answer": "Để duy trì trạng thái sinh viên toàn thời gian (chính quy), sinh viên phải đăng ký tối thiểu 80% khối lượng học tập trong một học kỳ thông thường, tương đương với 12 tín chỉ [Source 1, Source 2].",
+    "contexts": [
+      "của Trường.\n\n### Điều 11. Khối lượng học tập\n\n1. Khối lượng học tập được xác định bởi số tín chỉ mà sinh viên đang học. Thông thường khối lượng học tập toàn thời gian là 30 tín chỉ trong một năm học. Tùy vào mục tiêu học tập, sinh viên có thể tăng hoặc giảm khối lượng học của mình.\n\n2. Để duy trì là sinh viên toàn thời gian (chính quy), sinh viên phải đăng ký tối thiểu 80% khối lượng học tập trong một học kỳ thông thường (tương đương với 12 tín chỉ).\n\n3.",
+      "kỳ thông thường (tương đương với 12 tín chỉ).\n\n3. Quy định khối lượng học tập đăng ký trong mỗi kỳ học chính như sau: Phân loại Khối lượng học tập Ghi chú Ít nhất 14 tín chỉ cho mỗi học kỳ (áp dụng cho sinh viên năm đầu hoặc những sinh viên có kết quả kỳ trước đạt Mục tiêu giúp Sinh viên học lực khá trở lên; không áp dụng cho hoàn thành các yêu cầu Bình thường học kỳ cuối khóa học); của chương trình đào tạo trong thời gian học tập Ít nhất 10 tín chỉ cho mỗi học kỳ, áp thông thường.",
+      "Uni nhằm đáp ứng các yêu cầu cấp bằng của VinUni. Sinh viên chính quy Sinh viên đang theo học ít nhất 80% khối lượng tín chỉ trong chương trình đào tạo. Thông thường khối lượng tín chỉ toàn thời gian một năm học phải hoàn thành là 30 tín chỉ. Ngày kết thúc Ngày sinh viên hoàn thành chương trình học và trên bằng của sinh viên chương trình học sẽ thể hiện thông tin về ngày kết thúc. Xếp hạng học lực Là chỉ số để đo tiến trình học tập của sinh viên\n\n## DANH MỤC HƯỚNG DẪN VÀ QUY TRÌNH",
+      "cuối của chương trình đào tạo đại học đang học;\n\nc) Không thuộc diện cảnh báo kết quả học tập hoặc kỷ luật học tập; Số tín chỉ được công nhận không vượt quá 15 tín chỉ.\n\n3. Những học phần được xét công nhận và chuyển đổi tín chỉ theo quy định tại Điều này khi đáp ứng các yêu cầu sau:\n\na) Đáp ứng chuẩn đầu ra, yêu cầu về giảng viên, khối lượng học tập, cách thức đánh giá học phần và các yêu cầu khác của học phần trong chương trình đào tạo thạc sĩ;",
+      "nhất 10 tín chỉ cho mỗi học kỳ, áp thông thường. dụng đối với những sinh viên đang trong thời gian bị xếp hạng học lực yếu. Mục tiêu cho phép sinh viên hoàn thành việc học Từ 18-22 tín chỉ, được cố vấn học tập Vượt ngưỡng với thời gian tương ứng đồng ý. với nhu cầu và/hoặc khả năng của mình.\n\nTrên 22 tín chỉ, được Viện Trưởng Trên mức vượt hoặc người được Viện trưởng ủy quyền ngưỡng đồng ý.\n\n4. Kỳ học mùa Hè (Kỳ học Hè): tối đa 9 tín chỉ, khối lượng học tập tối thiểu không bắt buộc."
+    ],
+    "source_ids": [
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-57",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-58",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-15",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-18",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-59"
+    ],
+    "latency_seconds": 2.7,
+    "scores": {}
+  },
+  {
+    "case": 9,
+    "config": "B",
+    "strategy": "hybrid+RRF",
+    "question": "Sinh viên đại học phải đăng ký bao nhiêu tín chỉ để duy trì trạng thái toàn thời gian?",
+    "reference": "Sinh viên phải đăng ký tối thiểu 80% khối lượng học tập của học kỳ thông thường, tương đương 12 tín chỉ.",
+    "reference_context": "Để duy trì là sinh viên toàn thời gian (chính quy), sinh viên phải đăng ký tối thiểu 80% khối lượng học tập trong một học kỳ thông thường (tương đương với 12 tín chỉ).",
+    "answer": "Để duy trì trạng thái là sinh viên toàn thời gian (chính quy), sinh viên phải đăng ký tối thiểu 80% khối lượng học tập trong một học kỳ thông thường, tương đương với 12 tín chỉ [Source 1].",
+    "contexts": [
+      "của Trường.\n\n### Điều 11. Khối lượng học tập\n\n1. Khối lượng học tập được xác định bởi số tín chỉ mà sinh viên đang học. Thông thường khối lượng học tập toàn thời gian là 30 tín chỉ trong một năm học. Tùy vào mục tiêu học tập, sinh viên có thể tăng hoặc giảm khối lượng học của mình.\n\n2. Để duy trì là sinh viên toàn thời gian (chính quy), sinh viên phải đăng ký tối thiểu 80% khối lượng học tập trong một học kỳ thông thường (tương đương với 12 tín chỉ).\n\n3.",
+      "Uni nhằm đáp ứng các yêu cầu cấp bằng của VinUni. Sinh viên chính quy Sinh viên đang theo học ít nhất 80% khối lượng tín chỉ trong chương trình đào tạo. Thông thường khối lượng tín chỉ toàn thời gian một năm học phải hoàn thành là 30 tín chỉ. Ngày kết thúc Ngày sinh viên hoàn thành chương trình học và trên bằng của sinh viên chương trình học sẽ thể hiện thông tin về ngày kết thúc. Xếp hạng học lực Là chỉ số để đo tiến trình học tập của sinh viên\n\n## DANH MỤC HƯỚNG DẪN VÀ QUY TRÌNH",
+      "c nhiều hơn 22 tín chỉ trong kỳ học thông thường. Tình trạng học vượt ngưỡng được xác định bởi tổng số tín chỉ, bao gồm cả giáo dục thể chất, các học phần bổ trợ, học phần phi tín chỉ và học phần phải học lại.\n\n6. Điều kiện tiên quyết: Việc đăng ký các học phần sẽ học cho từng học kỳ phải bảo đảm điều kiện tiên quyết của từng học phần và trình tự học tập của mỗi chương trình cụ thể. Việc miễn trừ điều kiện tiên quyết bắt buộc phải có sự chấp thuận của Giám đốc chương trình học.\n\n### Điều 12.",
+      "ọc với trọng số là số tín chỉ của từng học phần.\n\n## Chương II: TỔ CHỨC ĐÀO TẠO\n\n### Điều 7. Thời gian và kế hoạch đào tạo\n\n1. Trường tổ chức đào tạo theo khóa học, năm học và học kỳ.\n\na) Khóa học: là thời gian tiêu chuẩn được thiết kế để sinh viên hoàn thành một chương trình cụ thể. Thời gian thiết kế của mỗi chương trình không dưới 180 tín chỉ đối với chương trình đại học 6 năm và 120 tín chỉ đối với chương trình đại học 4 năm.\n\nb) Mỗi năm học có hai học kỳ chính, kỳ học Mùa Thu và Mùa Xuân.",
+      "kỳ thông thường (tương đương với 12 tín chỉ).\n\n3. Quy định khối lượng học tập đăng ký trong mỗi kỳ học chính như sau: Phân loại Khối lượng học tập Ghi chú Ít nhất 14 tín chỉ cho mỗi học kỳ (áp dụng cho sinh viên năm đầu hoặc những sinh viên có kết quả kỳ trước đạt Mục tiêu giúp Sinh viên học lực khá trở lên; không áp dụng cho hoàn thành các yêu cầu Bình thường học kỳ cuối khóa học); của chương trình đào tạo trong thời gian học tập Ít nhất 10 tín chỉ cho mỗi học kỳ, áp thông thường."
+    ],
+    "source_ids": [
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-57",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-15",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-61",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-42",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-58"
+    ],
+    "latency_seconds": 2.629,
+    "scores": {}
+  },
+  {
+    "case": 10,
+    "config": "A",
+    "strategy": "dense-only",
+    "question": "Sinh viên đại học được đăng ký tối đa bao nhiêu tín chỉ trong học kỳ Hè?",
+    "reference": "Sinh viên được đăng ký tối đa 9 tín chỉ trong học kỳ Hè.",
+    "reference_context": "Kỳ học mùa Hè (Kỳ học Hè): tối đa 9 tín chỉ, khối lượng học tập tối thiểu không bắt buộc.",
+    "answer": "Sinh viên đại học được đăng ký tối đa 9 tín chỉ trong kỳ học mùa Hè (Kỳ học Hè) [Source 5].",
+    "contexts": [
+      "chỉ, khối lượng học tập tối thiểu không bắt buộc. Khối lượng học sẽ chỉ được tính cho học kỳ Hè (như một học kỳ riêng biệt / học kỳ phụ), không tính vào các kỳ học thông thường (Kỳ mùa Thu/mùa Xuân).\n\n5. Sinh viên phải đề xuất xin đăng ký khối lượng học vượt ngưỡng nếu: (i) Sinh viên năm thứ nhất yêu cầu học nhiều hơn 18 tín chỉ; (ii) Không có thành tích học tập tốt trong học kỳ trước nhưng muốn học nhiều hơn 18 tín chỉ; (iii) Yêu cầu học nhiều hơn 22 tín chỉ trong kỳ học thông thường.",
+      "nhất 10 tín chỉ cho mỗi học kỳ, áp thông thường. dụng đối với những sinh viên đang trong thời gian bị xếp hạng học lực yếu. Mục tiêu cho phép sinh viên hoàn thành việc học Từ 18-22 tín chỉ, được cố vấn học tập Vượt ngưỡng với thời gian tương ứng đồng ý. với nhu cầu và/hoặc khả năng của mình.\n\nTrên 22 tín chỉ, được Viện Trưởng Trên mức vượt hoặc người được Viện trưởng ủy quyền ngưỡng đồng ý.\n\n4. Kỳ học mùa Hè (Kỳ học Hè): tối đa 9 tín chỉ, khối lượng học tập tối thiểu không bắt buộc.",
+      "kỳ thông thường (tương đương với 12 tín chỉ).\n\n3. Quy định khối lượng học tập đăng ký trong mỗi kỳ học chính như sau: Phân loại Khối lượng học tập Ghi chú Ít nhất 14 tín chỉ cho mỗi học kỳ (áp dụng cho sinh viên năm đầu hoặc những sinh viên có kết quả kỳ trước đạt Mục tiêu giúp Sinh viên học lực khá trở lên; không áp dụng cho hoàn thành các yêu cầu Bình thường học kỳ cuối khóa học); của chương trình đào tạo trong thời gian học tập Ít nhất 10 tín chỉ cho mỗi học kỳ, áp thông thường.",
+      "ọc với trọng số là số tín chỉ của từng học phần.\n\n## Chương II: TỔ CHỨC ĐÀO TẠO\n\n### Điều 7. Thời gian và kế hoạch đào tạo\n\n1. Trường tổ chức đào tạo theo khóa học, năm học và học kỳ.\n\na) Khóa học: là thời gian tiêu chuẩn được thiết kế để sinh viên hoàn thành một chương trình cụ thể. Thời gian thiết kế của mỗi chương trình không dưới 180 tín chỉ đối với chương trình đại học 6 năm và 120 tín chỉ đối với chương trình đại học 4 năm.\n\nb) Mỗi năm học có hai học kỳ chính, kỳ học Mùa Thu và Mùa Xuân.",
+      "c nhiều hơn 22 tín chỉ trong kỳ học thông thường. Tình trạng học vượt ngưỡng được xác định bởi tổng số tín chỉ, bao gồm cả giáo dục thể chất, các học phần bổ trợ, học phần phi tín chỉ và học phần phải học lại.\n\n6. Điều kiện tiên quyết: Việc đăng ký các học phần sẽ học cho từng học kỳ phải bảo đảm điều kiện tiên quyết của từng học phần và trình tự học tập của mỗi chương trình cụ thể. Việc miễn trừ điều kiện tiên quyết bắt buộc phải có sự chấp thuận của Giám đốc chương trình học.\n\n### Điều 12."
+    ],
+    "source_ids": [
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-60",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-59",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-58",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-42",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-61"
+    ],
+    "latency_seconds": 2.625,
+    "scores": {}
+  },
+  {
+    "case": 10,
+    "config": "B",
+    "strategy": "hybrid+RRF",
+    "question": "Sinh viên đại học được đăng ký tối đa bao nhiêu tín chỉ trong học kỳ Hè?",
+    "reference": "Sinh viên được đăng ký tối đa 9 tín chỉ trong học kỳ Hè.",
+    "reference_context": "Kỳ học mùa Hè (Kỳ học Hè): tối đa 9 tín chỉ, khối lượng học tập tối thiểu không bắt buộc.",
+    "answer": "Sinh viên đại học được đăng ký tối đa 9 tín chỉ trong kỳ học mùa Hè (Kỳ học Hè) [Source 1].",
+    "contexts": [
+      "nhất 10 tín chỉ cho mỗi học kỳ, áp thông thường. dụng đối với những sinh viên đang trong thời gian bị xếp hạng học lực yếu. Mục tiêu cho phép sinh viên hoàn thành việc học Từ 18-22 tín chỉ, được cố vấn học tập Vượt ngưỡng với thời gian tương ứng đồng ý. với nhu cầu và/hoặc khả năng của mình.\n\nTrên 22 tín chỉ, được Viện Trưởng Trên mức vượt hoặc người được Viện trưởng ủy quyền ngưỡng đồng ý.\n\n4. Kỳ học mùa Hè (Kỳ học Hè): tối đa 9 tín chỉ, khối lượng học tập tối thiểu không bắt buộc.",
+      "chỉ, khối lượng học tập tối thiểu không bắt buộc. Khối lượng học sẽ chỉ được tính cho học kỳ Hè (như một học kỳ riêng biệt / học kỳ phụ), không tính vào các kỳ học thông thường (Kỳ mùa Thu/mùa Xuân).\n\n5. Sinh viên phải đề xuất xin đăng ký khối lượng học vượt ngưỡng nếu: (i) Sinh viên năm thứ nhất yêu cầu học nhiều hơn 18 tín chỉ; (ii) Không có thành tích học tập tốt trong học kỳ trước nhưng muốn học nhiều hơn 18 tín chỉ; (iii) Yêu cầu học nhiều hơn 22 tín chỉ trong kỳ học thông thường.",
+      "giờ trong một tuần và 04 giờ trong một ngày.\n\n5. Phòng Quản lý Đào tạo quy định quy trình học viên đăng ký học tập trước k hi bắt đầu mỗi học kỳ theo từng chương trình đào tạo; khối lượng tín chỉ tối đa và tối thiểu trong mỗi học kỳ học viên được phép đăng ký. Trường hợp học viên có nguyện vọng đăng kí học ít hơn số tín chỉ tối thiểu trong một học kì phải được sự đồng ý của Viện trưởng đào tạo.\n\n6.",
+      "kỳ thông thường (tương đương với 12 tín chỉ).\n\n3. Quy định khối lượng học tập đăng ký trong mỗi kỳ học chính như sau: Phân loại Khối lượng học tập Ghi chú Ít nhất 14 tín chỉ cho mỗi học kỳ (áp dụng cho sinh viên năm đầu hoặc những sinh viên có kết quả kỳ trước đạt Mục tiêu giúp Sinh viên học lực khá trở lên; không áp dụng cho hoàn thành các yêu cầu Bình thường học kỳ cuối khóa học); của chương trình đào tạo trong thời gian học tập Ít nhất 10 tín chỉ cho mỗi học kỳ, áp thông thường.",
+      "của Trường.\n\n### Điều 11. Khối lượng học tập\n\n1. Khối lượng học tập được xác định bởi số tín chỉ mà sinh viên đang học. Thông thường khối lượng học tập toàn thời gian là 30 tín chỉ trong một năm học. Tùy vào mục tiêu học tập, sinh viên có thể tăng hoặc giảm khối lượng học của mình.\n\n2. Để duy trì là sinh viên toàn thời gian (chính quy), sinh viên phải đăng ký tối thiểu 80% khối lượng học tập trong một học kỳ thông thường (tương đương với 12 tín chỉ).\n\n3."
+    ],
+    "source_ids": [
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-59",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-60",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-27",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-58",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-57"
+    ],
+    "latency_seconds": 2.431,
+    "scores": {}
+  },
+  {
+    "case": 11,
+    "config": "A",
+    "strategy": "dense-only",
+    "question": "Thời hạn rút bớt học phần mà không bị ghi vào hồ sơ học tập là khi nào?",
+    "reference": "Hạn cuối là ngày học thứ 15 của học kỳ chính hoặc ngày học thứ 10 của học kỳ Hè.",
+    "reference_context": "Hạn cuối rút bớt học phần là ngày học thứ 15 của học kỳ chính hoặc ngày học thứ 10 của các học kỳ Hè. Những thay đổi thực hiện trong giai đoạn này sẽ không được ghi vào hồ sơ học tập của sinh viên.",
+    "answer": "Thời hạn rút bớt học phần mà những thay đổi thực hiện trong giai đoạn này sẽ không được ghi vào hồ sơ học tập (hoặc điểm W sẽ không bị ghi vào kết quả học tập) là:\n\n* Hạn cuối là ngày học thứ 15 của học kỳ chính hoặc ngày học thứ 10 của các học kỳ Hè [Source 1].\n* Nếu sinh viên xin rút trước thời hạn quy định, điểm W sẽ không bị ghi vào kết quả học tập [Source 5] (hoặc nếu học sinh rút tên trước \"Ngày thôi học\" cho mỗi học kỳ, điểm W sẽ không được ghi trên bảng điểm [Source 2]).",
+    "contexts": [
+      "ời hạn được công bố trong lịch học của học kỳ đó. Hạn cuối rút bớt học phần là ngày học thứ 15 của học kỳ chính hoặc ngày học thứ 10 của các học kỳ Hè . Những thay đổi thực hiện trong giai đoạn này sẽ không được ghi vào hồ sơ học tập của sinh viên.\n\n3. Ngoài thời hạn quy định, học phần vẫn được giữ nguyên trong hồ sơ sinh viên và nếu sinh viên không đi học học phần này sẽ được xem như tự ý bỏ học và phải nhận điểm “W – Bỏ môn” trên bảng điểm.\n\n4.",
+      "ọc phần trong một học kỳ nhưng sau đó xin bỏ môn. Nếu sinh viên xin rút trước thời hạn quy W Bỏ/Rút định, điểm W sẽ không bị ghi vào kết quả học tập. Các quyết định về số tín chỉ tối thiểu phải được quy định trong Quy chế Đào tạo và được phản ánh trên hệ thống. T Chuyển đổi Điểm học phần được chuyển đổi và công nhận tín chỉ Z Miễn học Điểm học phần được miễn học",
+      "nh sẽ được xếp loại theo kết quả học tập của họ.\n\nNếu học sinh rút tên trước “Ngày thôi học” cho mỗi học kỳ, điểm W sẽ không được ghi trên bảng điểm.\n\nc) Chính sách giới hạn rút hồ sơ cho phép sinh viên rút tối đa 18 tín chỉ trong toàn bộ chương trình học. Khi đạt đến giới hạn, sinh viên không thể rút tiền được nữa và phải tiếp tục đăng ký. (Các) giáo viên hướng dẫn sẽ chỉ định (các) điểm thích hợp.\n\n### Điều 13. Chuyển đổi tín chỉ và miễn trừ học phần\n\n1. Chuyển đổi tín chỉ",
+      "ỳ đầu tiên của một học phần học qua nhiều học kỳ. Điểm cuối cùng thể hiện trong học kỳ cuối cùng của học phần đó. Do hoàn cảnh bất khả kháng, Phòng Quản lý Đào tạo không Chưa nhận nhận được điểm của sinh viên và phải để kết quả điểm là NGR được kết NGR. Điểm NGR phải được chuyển thành điểm chính thức quả thi càng sớm càng tốt và/ hoặc không được muộn hơn thời điểm xét tốt nghiệp. Khi sinh viên đã đăng ký học phần trong một học kỳ nhưng sau đó xin bỏ môn.",
+      "huận của Giám đốc chương trình học.\n\n### Điều 12. Bổ sung/bỏ bớt và rút bớt học phần đã đăng ký\n\n1. Sinh viên được phép thêm các học phần vào lịch học của mình trong vòng 10 ngày học đầu tiên của học kỳ thông thường và trong vòng 5 ngày học đầu tiên của học kỳ phụ (kỳ học mùa Thu A/B hoặc kỳ học mùa Xuân A/B)\n\n2. Sinh viên được phép rút bớt học phần trong khối lượng học tập đã đăng ký trong thời hạn được công bố trong lịch học của học kỳ đó."
+    ],
+    "source_ids": [
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-63",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-161",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-66",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-160",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-62"
+    ],
+    "latency_seconds": 2.673,
+    "scores": {}
+  },
+  {
+    "case": 11,
+    "config": "B",
+    "strategy": "hybrid+RRF",
+    "question": "Thời hạn rút bớt học phần mà không bị ghi vào hồ sơ học tập là khi nào?",
+    "reference": "Hạn cuối là ngày học thứ 15 của học kỳ chính hoặc ngày học thứ 10 của học kỳ Hè.",
+    "reference_context": "Hạn cuối rút bớt học phần là ngày học thứ 15 của học kỳ chính hoặc ngày học thứ 10 của các học kỳ Hè. Những thay đổi thực hiện trong giai đoạn này sẽ không được ghi vào hồ sơ học tập của sinh viên.",
+    "answer": "Thời hạn rút bớt học phần mà không bị ghi vào hồ sơ học tập (hoặc kết quả học tập) được quy định như sau:\n- Là ngày học thứ 15 của học kỳ chính hoặc ngày học thứ 10 của các học kỳ Hè [Source 1]. \n- Nếu sinh viên xin rút trước thời hạn quy định này, những thay đổi sẽ không được ghi vào hồ sơ học tập (điểm W sẽ không bị ghi vào kết quả học tập) [Source 1, Source 2]. Ngoài ra, nếu học sinh rút tên trước \"Ngày thôi học\" cho mỗi học kỳ, điểm W cũng sẽ không được ghi trên bảng điểm [Source 6 - nhưng source 6 không tồn tại, sửa lại dựa trên Source 1 và 2: \"Những thay đổi thực hiện trong giai đoạn này sẽ không được ghi vào hồ sơ học tập của sinh viên\" và \"Nếu sinh viên xin rút trước thời hạn quy định, điểm W sẽ không bị ghi vào kết quả học tập\" [Source 1, Source 2]].",
+    "contexts": [
+      "ời hạn được công bố trong lịch học của học kỳ đó. Hạn cuối rút bớt học phần là ngày học thứ 15 của học kỳ chính hoặc ngày học thứ 10 của các học kỳ Hè . Những thay đổi thực hiện trong giai đoạn này sẽ không được ghi vào hồ sơ học tập của sinh viên.\n\n3. Ngoài thời hạn quy định, học phần vẫn được giữ nguyên trong hồ sơ sinh viên và nếu sinh viên không đi học học phần này sẽ được xem như tự ý bỏ học và phải nhận điểm “W – Bỏ môn” trên bảng điểm.\n\n4.",
+      "nh sẽ được xếp loại theo kết quả học tập của họ.\n\nNếu học sinh rút tên trước “Ngày thôi học” cho mỗi học kỳ, điểm W sẽ không được ghi trên bảng điểm.\n\nc) Chính sách giới hạn rút hồ sơ cho phép sinh viên rút tối đa 18 tín chỉ trong toàn bộ chương trình học. Khi đạt đến giới hạn, sinh viên không thể rút tiền được nữa và phải tiếp tục đăng ký. (Các) giáo viên hướng dẫn sẽ chỉ định (các) điểm thích hợp.\n\n### Điều 13. Chuyển đổi tín chỉ và miễn trừ học phần\n\n1. Chuyển đổi tín chỉ",
+      "ọc phần trong một học kỳ nhưng sau đó xin bỏ môn. Nếu sinh viên xin rút trước thời hạn quy W Bỏ/Rút định, điểm W sẽ không bị ghi vào kết quả học tập. Các quyết định về số tín chỉ tối thiểu phải được quy định trong Quy chế Đào tạo và được phản ánh trên hệ thống. T Chuyển đổi Điểm học phần được chuyển đổi và công nhận tín chỉ Z Miễn học Điểm học phần được miễn học",
+      "huận của Giám đốc chương trình học.\n\n### Điều 12. Bổ sung/bỏ bớt và rút bớt học phần đã đăng ký\n\n1. Sinh viên được phép thêm các học phần vào lịch học của mình trong vòng 10 ngày học đầu tiên của học kỳ thông thường và trong vòng 5 ngày học đầu tiên của học kỳ phụ (kỳ học mùa Thu A/B hoặc kỳ học mùa Xuân A/B)\n\n2. Sinh viên được phép rút bớt học phần trong khối lượng học tập đã đăng ký trong thời hạn được công bố trong lịch học của học kỳ đó.",
+      "à phải nhận điểm “W – Bỏ môn” trên bảng điểm.\n\n4. Sinh viên phải đề xuất và được sự chấp nhận của Cố vấn học tập nếu muốn đăng ký thêm các học phần. Giảng viên giảng dạy học phần có thể cho phép sinh viên đăng ký thêm học phần.\n\n5. Chính sách bỏ bớt khóa học:\n\na) Điểm “W-Rút lui” sẽ được ghi trên bảng điểm của sinh viên khi sinh viên đã đăng ký môn học trong một học kỳ nhưng sau đó đã gửi thông báo rút lui cho Nhà trường."
+    ],
+    "source_ids": [
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-63",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-66",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-161",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-62",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-64"
+    ],
+    "latency_seconds": 2.988,
+    "scores": {}
+  },
+  {
+    "case": 12,
+    "config": "A",
+    "strategy": "dense-only",
+    "question": "Yêu cầu IELTS Academic tối thiểu để đáp ứng chuẩn tiếng Anh đầu vào VinUni là gì?",
+    "reference": "IELTS Academic tối thiểu 6.5 overall và không kỹ năng nào dưới 6.0.",
+    "reference_context": "International English Language Testing System (IELTS) Academic module: An overall score of 6.5, with no individual band score lower than 6.0.",
+    "answer": "Dựa trên context được cung cấp, yêu cầu điểm IELTS Academic tối thiểu (đối với tuyển sinh bậc đại học) là điểm tổng (overall score) từ 6.5 trở lên, không có kỹ năng nào dưới 6.0 [Source 5].",
+    "contexts": [
+      "NG CHO TRÌNH ĐỘ NGOẠI NGỮ\n\n## CỦA NGƯỜI DỰ TUYỂN\n\nStt Ngôn ngữ Bằng/Chứng chỉ/Chứng nhận Trình độ/Thang điểm TOEFL iBT Từ 46 trở lên IELTS Từ 5.5 trở lên\n\n- 1 Tiếng Anh | B2 First/B2 Business\n\nCambridge Assessment English Vantage/Linguaskill Thang điểm: từ 160 trở lên\n\n## Phụ Lục Iii\n\n(Ban hành kèm theo Quyết định số ngày tháng năm 2023 của Hiệu trưởng Trường Đại học VinUni)\n\n## MẪU BÁO CÁO\n\nDANH SÁCH NGHIÊN CỨU SINH BẢO VỆ LUẬN ÁN CÁC THÁNG TRONG NĂM",
+      "h Language Testing System (IELTS) Academic module\n- **Minimum required scores:** An overall score of 6.5, with no individual band score lower than 6.0. One Skill Retake results are accepted subject to standard validity requirements; updated results must be submitted by August 30 of the admission year. Note: IELTS General Training module tests are not currently accepted.\n\n#### Record: 2",
+      "s at VinUniversity.\n## 3. GENERAL PRINCIPLES\n3.1. As English is the medium of instruction at VinUniversity, all students must demonstrate a high level of English proficiency before graduation.\n3.2. Students must meet or exceed the English proficiency standards required for admission to maintain their language skills throughout their academic study.\n## 4. GRADUATION REQUIREMENTS\n### 4.1. English Language Entry Requirements",
+      "---\ntitle: \"English Language Proficiency Requirements For Graduation At VinUniversity\"\nsource: \"article_02.json\"\ndoc_type: \"news\"\nurl: \"https://policy.vinuni.edu.vn/all-policies/english-language-proficiency-requirements-for-graduation-at-vinuniversity/\"\ndate_crawled: \"2026-09-25T04:04:42.849617+00:00\"\ncontent_kind: \"policy\"\nquality_status: \"cleaned\"\n---\n# English Language Proficiency Requirements For Graduation At VinUniversity\n\n## 1. PURPOSE",
+      "---\ntitle: \"English Language Requirements For Undergraduate Admissions\"\nsource: \"article_01.json\"\ndoc_type: \"news\"\nurl: \"https://policy.vinuni.edu.vn/academic-affairs/english-language-requirements-for-undergraduate-admissions/\"\ndate_crawled: \"2026-09-25T04:04:37.866632+00:00\"\ncontent_kind: \"policy\"\nquality_status: \"needs_source_review\"\n---\n# English Language Requirements For Undergraduate Admissions\n\n## 1. PURPOSE"
+    ],
+    "source_ids": [
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-97",
+      "news/article_01.md::chunk-10",
+      "news/article_02.md::chunk-2",
+      "news/article_02.md::chunk-0",
+      "news/article_01.md::chunk-0"
+    ],
+    "latency_seconds": 2.811,
+    "scores": {}
+  },
+  {
+    "case": 12,
+    "config": "B",
+    "strategy": "hybrid+RRF",
+    "question": "Yêu cầu IELTS Academic tối thiểu để đáp ứng chuẩn tiếng Anh đầu vào VinUni là gì?",
+    "reference": "IELTS Academic tối thiểu 6.5 overall và không kỹ năng nào dưới 6.0.",
+    "reference_context": "International English Language Testing System (IELTS) Academic module: An overall score of 6.5, with no individual band score lower than 6.0.",
+    "answer": "Dựa trên ngữ cảnh được cung cấp, yêu cầu tối thiểu về điểm IELTS Academic đối với tuyển sinh đại học (undergraduate admissions) là điểm tổng thể (overall score) từ 6.5 trở lên, và không có kỹ năng thành phần nào dưới 6.0 [Source 4].",
+    "contexts": [
+      "NG CHO TRÌNH ĐỘ NGOẠI NGỮ\n\n## CỦA NGƯỜI DỰ TUYỂN\n\nStt Ngôn ngữ Bằng/Chứng chỉ/Chứng nhận Trình độ/Thang điểm TOEFL iBT Từ 46 trở lên IELTS Từ 5.5 trở lên\n\n- 1 Tiếng Anh | B2 First/B2 Business\n\nCambridge Assessment English Vantage/Linguaskill Thang điểm: từ 160 trở lên\n\n## Phụ Lục Iii\n\n(Ban hành kèm theo Quyết định số ngày tháng năm 2023 của Hiệu trưởng Trường Đại học VinUni)\n\n## MẪU BÁO CÁO\n\nDANH SÁCH NGHIÊN CỨU SINH BẢO VỆ LUẬN ÁN CÁC THÁNG TRONG NĂM",
+      "ận tốt nghiệp phải đáp ứng đủ các điều kiện sau:\n\na) Tích lũy đủ số học phần, khối lượng của chương trình đào tạo trong thời gian đào tạo quy định của mỗi chương trình đào tạo;\n\nb) Hoàn thành các yêu cầu về Giáo dục đại cương và năng lực tiếng Anh;\n\nc) Hoàn thành các yêu cầu đối với chuyên ngành do các Viện đào tạo quy định;\n\nd) Hoàn thành các học phần bắt buộc đang bị điểm “I - Chưa hoàn thành” trong bảng điểm;\n\ne) Điểm trung bình tích lũy của toàn khóa học đạt tối thiểu từ 2,00/4,00 trở lên;",
+      "ên sẽ được coi là đáp ứng yêu cầu tiên quyết.\n\n3. Quy trình gửi yêu cầu Sinh viên có thể nộp Đơn xin chuyển đổi tín chỉ hoặc đơn xin miễn học phần của chương trình học trong hai thời điểm sau:\n\na) Trước khi nhập học: Sinh viên cần trình bày quá trình học tập trước đó trong đơn xin nhập học và đơn xin chuyển đổi tín chỉ hoặc đơn xin miễn trừ, sau đó nộp đơn để phê duyệt trước khi bắt đầu học kỳ chính đầu tiên của sinh viên tại VinUni.",
+      "h Language Testing System (IELTS) Academic module\n- **Minimum required scores:** An overall score of 6.5, with no individual band score lower than 6.0. One Skill Retake results are accepted subject to standard validity requirements; updated results must be submitted by August 30 of the admission year. Note: IELTS General Training module tests are not currently accepted.\n\n#### Record: 2",
+      "của chương trình đào tạo.\n\n2. Miễn trừ học phần\n\na) Căn cứ vào việc học ở trình độ tương ứng mà sinh viên đã hoàn thành tại một trường học khác không phải VinUni, sinh viên có thể được miễn học phần hoặc những yêu cầu khác của chương trình học mà không cần chuyển đổi tín chỉ. Sinh viên có thể được yêu cầu học một (hoặc nhiều) học phần khác để tích lũy số tín chỉ cần thiết để đáp ứng các yêu cầu của chương trình đào tạo."
+    ],
+    "source_ids": [
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-97",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-177",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-73",
+      "news/article_01.md::chunk-10",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-71"
+    ],
+    "latency_seconds": 2.838,
+    "scores": {}
+  },
+  {
+    "case": 13,
+    "config": "A",
+    "strategy": "dense-only",
+    "question": "Kết quả kiểm tra tiếng Anh dùng cho tuyển sinh VinUni phải được thi trong thời gian nào?",
+    "reference": "Kết quả phải được thi trong vòng 2 năm trước ngày 15/5 của năm tuyển sinh liên quan.",
+    "reference_context": "The test results were obtained within two (02) years prior to May 15 of the relevant admission year. May 15 serves as the official validity cut-off date for all admission rounds in that academic year.",
+    "answer": "Kết quả kiểm tra năng lực tiếng Anh phải được lấy trong vòng hai (02) năm trước ngày 15 tháng 5 của năm tuyển sinh liên quan [Source 1].",
+    "contexts": [
+      "y:\n#### 3.2.1. English language proficiency tests\nThe following English language proficiency tests and scores are recognized by VinUniversity as meeting the standard minimum English language requirements, provided that the test results were obtained within two (02) years prior to May 15 of the relevant admission year. May 15 serves as the official validity cut-off date for all admission rounds in that academic year.",
+      "evant VinUniversity policies and requirements.\n3. Applicants, whether domestic or international, must provide evidence that their English language proficiency meets the minimum requirements for admission to any VinUniversity undergraduate program, no later than August 30 of the admission year in order to be fully enrolled in their admitted program without any conditions.\n4.",
+      "rson at a recognized test center)\n\n#### Record: 6\n- **English language proficiency tests:** Vietnamese Standardized Test of English Proficiency (VSTEP)\n- **Minimum required scores:** Result is equivalent to VSTEP Level 5 C1 level.\n**Note:**\n1. Other English language proficiency tests not listed above may be considered on a case-by-case basis by the Office of the Registrar after consulting with the College of Arts and Sciences.",
+      "ion to conditional on meeting English language\n5. The TOEFL institutional code for VinUniversity is **0506**. Applicants may use this code to report their TOEFL results to the university.\n\n#### 3.2.2. Citizenship/resident status",
+      "NG CHO TRÌNH ĐỘ NGOẠI NGỮ\n\n## CỦA NGƯỜI DỰ TUYỂN\n\nStt Ngôn ngữ Bằng/Chứng chỉ/Chứng nhận Trình độ/Thang điểm TOEFL iBT Từ 46 trở lên IELTS Từ 5.5 trở lên\n\n- 1 Tiếng Anh | B2 First/B2 Business\n\nCambridge Assessment English Vantage/Linguaskill Thang điểm: từ 160 trở lên\n\n## Phụ Lục Iii\n\n(Ban hành kèm theo Quyết định số ngày tháng năm 2023 của Hiệu trưởng Trường Đại học VinUni)\n\n## MẪU BÁO CÁO\n\nDANH SÁCH NGHIÊN CỨU SINH BẢO VỆ LUẬN ÁN CÁC THÁNG TRONG NĂM"
+    ],
+    "source_ids": [
+      "news/article_01.md::chunk-8",
+      "news/article_01.md::chunk-4",
+      "news/article_01.md::chunk-14",
+      "news/article_01.md::chunk-17",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-97"
+    ],
+    "latency_seconds": 2.827,
+    "scores": {}
+  },
+  {
+    "case": 13,
+    "config": "B",
+    "strategy": "hybrid+RRF",
+    "question": "Kết quả kiểm tra tiếng Anh dùng cho tuyển sinh VinUni phải được thi trong thời gian nào?",
+    "reference": "Kết quả phải được thi trong vòng 2 năm trước ngày 15/5 của năm tuyển sinh liên quan.",
+    "reference_context": "The test results were obtained within two (02) years prior to May 15 of the relevant admission year. May 15 serves as the official validity cut-off date for all admission rounds in that academic year.",
+    "answer": "Kết quả kiểm tra tiếng Anh dùng cho tuyển sinh VinUni phải được lấy trong thời gian trong vòng hai (02) năm trước ngày 15 tháng 5 của năm tuyển sinh liên quan [Source 5].",
+    "contexts": [
+      "ới nội dung môn học; kết quả đầu ra của môn học.\n\nc) Hằng năm Viện đào tạo phải tổ chức nghiên cứu, phân tích kết quả thi hay kiểm tra các môn học trong chương trình đào tạo để ra đề thi một cách khoa học, đảm bảo tính chính xác và công bằng trong kiểm tra, đánh giá;\n\nd) Việc chấm kiểm tra thường kỳ, bài tập, tiểu luận, thi kết thúc môn học do giảng viên môn học đảm nhiệm.",
+      "y:\n#### 3.2.1. English language proficiency tests\nThe following English language proficiency tests and scores are recognized by VinUniversity as meeting the standard minimum English language requirements, provided that the test results were obtained within two (02) years prior to May 15 of the relevant admission year. May 15 serves as the official validity cut-off date for all admission rounds in that academic year.",
+      "ong các bài kiểm tra).\n\n### Điều 27. Phúc tra\n\n1. Sinh viên cần phản ánh cho Giảng viên và Phòng Quản lý Đào tạo trong vòng năm (05) ngày làm việc sau khi có kết quả điểm chính thức trên Canvas nếu nhận thấy bất kỳ lỗi/sai sót nào.\n\n2. Nếu điểm số không chính xác, sinh viên nên thông báo cho giảng viên dạy học phần ngay khi có kết quả.",
+      "evant VinUniversity policies and requirements.\n3. Applicants, whether domestic or international, must provide evidence that their English language proficiency meets the minimum requirements for admission to any VinUniversity undergraduate program, no later than August 30 of the admission year in order to be fully enrolled in their admitted program without any conditions.\n4.",
+      "t học sinh sẽ nhận điểm 0 cho kỳ thi mà em bỏ lỡ. Nếu sự vắng mặt là do lý do hợp lệ kèm theo bằng chứng có thể kiểm chứng được, thì người hướng dẫn khóa học có thể cho học sinh làm bài kiểm tra bù. Trong trường hợp không có bài kiểm tra bù cuối kỳ, những sinh viên này sẽ phải làm bài kiểm tra trong các học kỳ thông thường tiếp theo hoặc các học kỳ bổ sung."
+    ],
+    "source_ids": [
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-35",
+      "news/article_01.md::chunk-8",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-173",
+      "news/article_01.md::chunk-4",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-139"
+    ],
+    "latency_seconds": 2.727,
+    "scores": {}
+  },
+  {
+    "case": 14,
+    "config": "A",
+    "strategy": "dense-only",
+    "question": "VinUni có chấp nhận Duolingo English Test làm minh chứng tiếng Anh đầu vào không?",
+    "reference": "Không. Theo nguyên tắc chung, các bài thi online hoặc thi tại nhà như Duolingo English Test không được coi là minh chứng hợp lệ.",
+    "reference_context": "In general, online tests or at-home tests are not considered valid (i.e. IELTS Indicator, IELTS Online, TOEFL iBT Home Edition, The Duolingo English Test, etc.) for evidencing English proficiency to meet the entry requirements at VinUniversity.",
+    "answer": "Dựa trên các context được cung cấp, không có thông tin nào đề cập đến việc VinUni có chấp nhận Duolingo English Test làm minh chứng tiếng Anh đầu vào hay không. Do thiếu evidence, tôi từ chối xác minh khẳng định này.",
+    "contexts": [
+      "anguage requirements to VinUni Admissions Portal. The University reserves the right to require that an applicant undertakes an English test in addition to any other evidence of English proficiency provided.\n6. The University, through the Admissions Office in coordination with the Registrar’s Office, reserves the right to verify the authenticity of any submitted certificates.",
+      "rson at a recognized test center)\n\n#### Record: 6\n- **English language proficiency tests:** Vietnamese Standardized Test of English Proficiency (VSTEP)\n- **Minimum required scores:** Result is equivalent to VSTEP Level 5 C1 level.\n**Note:**\n1. Other English language proficiency tests not listed above may be considered on a case-by-case basis by the Office of the Registrar after consulting with the College of Arts and Sciences.",
+      "ENTS\n### 4.1. English Language Entry Requirements\nTo be eligible for graduation, students must provide evidence of English language proficiency through one of the accepted methods listed in the VinUniversity English Entry Requirements Policy.",
+      "---\ntitle: \"English Language Proficiency Requirements For Graduation At VinUniversity\"\nsource: \"article_02.json\"\ndoc_type: \"news\"\nurl: \"https://policy.vinuni.edu.vn/all-policies/english-language-proficiency-requirements-for-graduation-at-vinuniversity/\"\ndate_crawled: \"2026-09-25T04:04:42.849617+00:00\"\ncontent_kind: \"policy\"\nquality_status: \"cleaned\"\n---\n# English Language Proficiency Requirements For Graduation At VinUniversity\n\n## 1. PURPOSE",
+      "---\ntitle: \"English Language Requirements For Undergraduate Admissions\"\nsource: \"article_01.json\"\ndoc_type: \"news\"\nurl: \"https://policy.vinuni.edu.vn/academic-affairs/english-language-requirements-for-undergraduate-admissions/\"\ndate_crawled: \"2026-09-25T04:04:37.866632+00:00\"\ncontent_kind: \"policy\"\nquality_status: \"needs_source_review\"\n---\n# English Language Requirements For Undergraduate Admissions\n\n## 1. PURPOSE"
+    ],
+    "source_ids": [
+      "news/article_01.md::chunk-6",
+      "news/article_01.md::chunk-14",
+      "news/article_02.md::chunk-3",
+      "news/article_02.md::chunk-0",
+      "news/article_01.md::chunk-0"
+    ],
+    "latency_seconds": 2.95,
+    "scores": {}
+  },
+  {
+    "case": 14,
+    "config": "B",
+    "strategy": "hybrid+RRF",
+    "question": "VinUni có chấp nhận Duolingo English Test làm minh chứng tiếng Anh đầu vào không?",
+    "reference": "Không. Theo nguyên tắc chung, các bài thi online hoặc thi tại nhà như Duolingo English Test không được coi là minh chứng hợp lệ.",
+    "reference_context": "In general, online tests or at-home tests are not considered valid (i.e. IELTS Indicator, IELTS Online, TOEFL iBT Home Edition, The Duolingo English Test, etc.) for evidencing English proficiency to meet the entry requirements at VinUniversity.",
+    "answer": "Dựa trên các tài liệu được cung cấp, các bài kiểm tra trực tuyến hoặc tại nhà (bao gồm The Duolingo English Test) nói chung không được coi là hợp lệ để làm minh chứng năng lực tiếng Anh đáp ứng yêu cầu đầu vào tại Đại học VinUniversity [Source 3].",
+    "contexts": [
+      "NG CHO TRÌNH ĐỘ NGOẠI NGỮ\n\n## CỦA NGƯỜI DỰ TUYỂN\n\nStt Ngôn ngữ Bằng/Chứng chỉ/Chứng nhận Trình độ/Thang điểm TOEFL iBT Từ 46 trở lên IELTS Từ 5.5 trở lên\n\n- 1 Tiếng Anh | B2 First/B2 Business\n\nCambridge Assessment English Vantage/Linguaskill Thang điểm: từ 160 trở lên\n\n## Phụ Lục Iii\n\n(Ban hành kèm theo Quyết định số ngày tháng năm 2023 của Hiệu trưởng Trường Đại học VinUni)\n\n## MẪU BÁO CÁO\n\nDANH SÁCH NGHIÊN CỨU SINH BẢO VỆ LUẬN ÁN CÁC THÁNG TRONG NĂM",
+      "c hiện phần 3 của Luận án\n\n- trình 04 năm | bố,…\n\nLưu ý: phần in nghiêng là ví dụ về các nội dung trong kế hoạch học tập, nghiên cứu toàn khóa. Kế hoạch cụ thể của nghiên cứu sinh được xây dựng căn cứ vào quy định của Trường về chương trình đào tạo tiến sĩ đã công bố.\n\n## Phụ Lục Ii\n\n(Ban hành kèm theo Quyết định số ngày tháng năm 2023 của Hiệu trưởng Trường Đại học VinUni) DANH SÁCH CHỨNG CHỈ TIẾNG ANH MINH CHỨNG CHO TRÌNH ĐỘ NGOẠI NGỮ\n\n## CỦA NGƯỜI DỰ TUYỂN",
+      "anguage requirements to VinUni Admissions Portal. The University reserves the right to require that an applicant undertakes an English test in addition to any other evidence of English proficiency provided.\n6. The University, through the Admissions Office in coordination with the Registrar’s Office, reserves the right to verify the authenticity of any submitted certificates.",
+      "rson at a recognized test center)\n\n#### Record: 6\n- **English language proficiency tests:** Vietnamese Standardized Test of English Proficiency (VSTEP)\n- **Minimum required scores:** Result is equivalent to VSTEP Level 5 C1 level.\n**Note:**\n1. Other English language proficiency tests not listed above may be considered on a case-by-case basis by the Office of the Registrar after consulting with the College of Arts and Sciences.",
+      "consulting with the College of Arts and Sciences. In general, online tests or at-home tests are not considered valid (i.e. IELTS Indicator, IELTS Online, TOEFL iBT Home Edition, The Duolingo English Test, etc.) for evidencing English proficiency to meet the entry requirements at VinUniversity.\n2. Results from multiple tests cannot be combined to meet the minimum requirements unless otherwise\n3."
+    ],
+    "source_ids": [
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-97",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-96",
+      "news/article_01.md::chunk-6",
+      "news/article_01.md::chunk-14",
+      "news/article_01.md::chunk-15"
+    ],
+    "latency_seconds": 2.738,
+    "scores": {}
+  },
+  {
+    "case": 15,
+    "config": "A",
+    "strategy": "dense-only",
+    "question": "Sinh viên đại học đã hoàn thành các môn tiếng Anh bắt buộc có đáp ứng yêu cầu tiếng Anh tốt nghiệp không?",
+    "reference": "Có. Sinh viên đại học đạt tất cả các môn tiếng Anh bắt buộc, bao gồm Academic English hoặc Fundamentals of Academic Writing và các môn Pathway English bắt buộc, được xem là đã đáp ứng yêu cầu.",
+    "reference_context": "Undergraduate students who have completed all required English language courses by means of a passing grade, including Academic English or Fundamentals of Academic Writing courses and any required Pathway English courses, are considered to have met the English proficiency requirements for graduation.",
+    "answer": "Có, sinh viên đại học đã hoàn thành tất cả các học phần tiếng Anh bắt buộc với điểm đạt (bao gồm các khóa tiếng Anh học thuật, Viết học thuật cơ bản và các khóa tiếng Anh nền tảng nếu có) được xem là đã đáp ứng các yêu cầu về năng lực tiếng Anh để tốt nghiệp [Source 1].",
+    "contexts": [
+      "equirements Policy.\n### 4.2. Academic Performance\nUndergraduate students who have completed all required English language courses by means of a passing grade, including Academic English or Fundamentals of Academic Writing courses and any required Pathway English courses, are considered to have met the English proficiency requirements for graduation.",
+      "ận tốt nghiệp phải đáp ứng đủ các điều kiện sau:\n\na) Tích lũy đủ số học phần, khối lượng của chương trình đào tạo trong thời gian đào tạo quy định của mỗi chương trình đào tạo;\n\nb) Hoàn thành các yêu cầu về Giáo dục đại cương và năng lực tiếng Anh;\n\nc) Hoàn thành các yêu cầu đối với chuyên ngành do các Viện đào tạo quy định;\n\nd) Hoàn thành các học phần bắt buộc đang bị điểm “I - Chưa hoàn thành” trong bảng điểm;\n\ne) Điểm trung bình tích lũy của toàn khóa học đạt tối thiểu từ 2,00/4,00 trở lên;",
+      "b) Có trình độ ngoại ngữ đạt yêu cầu theo chuẩn đầu ra của chương trình đào tạo trước thời điểm xét tốt nghiệp; được minh chứng bằng một trong các văn bằng hoặc chứng chỉ ngoại ngữ đạt trình độ tương đương Bậc 4 theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam hoặc các chứng chỉ tương đương khác do Bộ Giáo dục và Đào tạo công bố, hoặc bằng tốt nghiệp trình độ đại học trở lên ngành ngôn ngữ nước ngoài, hoặc bằng tốt nghiệp trình độ đại học trở lên ngành khác mà chương trình được thực hiện ho",
+      "status before approving them for graduation.\n6.2. Students are encouraged to meet these requirements by the beginning of their final academic year to ensure timely graduation.\n6.3. The University reserves the right to require additional English language assessment if deemed necessary.",
+      "ts For Graduation At VinUniversity\n\n## 1. PURPOSE\nThis regulation establishes the English language proficiency requirements for graduation from undergraduate and graduate programs at VinUniversity, ensuring that all graduates possess the necessary English proficiency and skills to succeed in their academic and professional endeavors.\n## 2. SCOPE\nThis regulation applies to all undergraduate and graduate students enrolled in full-time programs at VinUniversity.\n## 3. GENERAL PRINCIPLES\n3.1."
+    ],
+    "source_ids": [
+      "news/article_02.md::chunk-5",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-177",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-60",
+      "news/article_02.md::chunk-8",
+      "news/article_02.md::chunk-1"
+    ],
+    "latency_seconds": 3.007,
+    "scores": {}
+  },
+  {
+    "case": 15,
+    "config": "B",
+    "strategy": "hybrid+RRF",
+    "question": "Sinh viên đại học đã hoàn thành các môn tiếng Anh bắt buộc có đáp ứng yêu cầu tiếng Anh tốt nghiệp không?",
+    "reference": "Có. Sinh viên đại học đạt tất cả các môn tiếng Anh bắt buộc, bao gồm Academic English hoặc Fundamentals of Academic Writing và các môn Pathway English bắt buộc, được xem là đã đáp ứng yêu cầu.",
+    "reference_context": "Undergraduate students who have completed all required English language courses by means of a passing grade, including Academic English or Fundamentals of Academic Writing courses and any required Pathway English courses, are considered to have met the English proficiency requirements for graduation.",
+    "answer": "Sinh viên đại học đã hoàn thành các môn tiếng Anh bắt buộc (bao gồm tiếng Anh học thuật hoặc các khóa Cơ bản về Viết học thuật và bất kỳ khóa học tiếng Anh chuyển tiếp bắt buộc nào) với điểm đạt sẽ được coi là đã đáp ứng các yêu cầu về năng lực tiếng Anh để tốt nghiệp [Source 5].",
+    "contexts": [
+      "ận tốt nghiệp phải đáp ứng đủ các điều kiện sau:\n\na) Tích lũy đủ số học phần, khối lượng của chương trình đào tạo trong thời gian đào tạo quy định của mỗi chương trình đào tạo;\n\nb) Hoàn thành các yêu cầu về Giáo dục đại cương và năng lực tiếng Anh;\n\nc) Hoàn thành các yêu cầu đối với chuyên ngành do các Viện đào tạo quy định;\n\nd) Hoàn thành các học phần bắt buộc đang bị điểm “I - Chưa hoàn thành” trong bảng điểm;\n\ne) Điểm trung bình tích lũy của toàn khóa học đạt tối thiểu từ 2,00/4,00 trở lên;",
+      "equirements Policy.\n### 4.2. Academic Performance\nUndergraduate students who have completed all required English language courses by means of a passing grade, including Academic English or Fundamentals of Academic Writing courses and any required Pathway English courses, are considered to have met the English proficiency requirements for graduation.",
+      "vấn cá nhân có thể bằng bất kỳ ngôn ngữ nào.\n\n2. Viện Khoa học và Giáo dục Khai phóng có thể dạy bằng tiếng Việt và sử dụng tài liệu tiếng Việt cho các học phần bắt buộc của Bộ Giáo dục và Đào tạo. Trong trường hợp như vậy, các tài liệu bằng tiếng Anh sẽ được cung cấp cho sinh viên khi được yêu cầu.\n\n3. Viện Khoa học Sức khỏe có thể sử dụng ngôn ngữ tiếng Việt trong một số trường hợp sinh viên đi thực hành luân khoa lâm sàng hoặc trong các môn học lâm sàng ví dụ như Y học cổ truyền...",
+      "b) Có trình độ ngoại ngữ đạt yêu cầu theo chuẩn đầu ra của chương trình đào tạo trước thời điểm xét tốt nghiệp; được minh chứng bằng một trong các văn bằng hoặc chứng chỉ ngoại ngữ đạt trình độ tương đương Bậc 4 theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam hoặc các chứng chỉ tương đương khác do Bộ Giáo dục và Đào tạo công bố, hoặc bằng tốt nghiệp trình độ đại học trở lên ngành ngôn ngữ nước ngoài, hoặc bằng tốt nghiệp trình độ đại học trở lên ngành khác mà chương trình được thực hiện ho",
+      "viên và không tính vào điểm trung bình. Bao gồm:\n\na) Điểm hoàn thành (CR, NCR) được sử dụng trong các học phần có tín chỉ bắt buộc và các hoạt động ngoại khóa phi tín chỉ như Giáo dục quốc phòng, Trại tập huấn kỹ năng lãnh đạo. Ký hiệu Giải thích Hoàn thành Yêu cầu (tương đương: Đạt) các học phần có tín chỉ hoặc phi CR tín chỉ để đáp ứng yêu cầu tốt nghiệp, điểm số không tính vào điểm trung bình GPA. Không Hoàn Thành Yêu cầu (tương đương: Trượt)."
+    ],
+    "source_ids": [
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-177",
+      "news/article_02.md::chunk-5",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-20",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-60",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-155"
+    ],
+    "latency_seconds": 2.982,
+    "scores": {}
+  },
+  {
+    "case": 16,
+    "config": "A",
+    "strategy": "dense-only",
+    "question": "Ai được miễn cung cấp thêm minh chứng tiếng Anh khi tốt nghiệp VinUni?",
+    "reference": "Sinh viên là công dân hoặc thường trú nhân của các quốc gia có đa số người dùng tiếng Anh được miễn cung cấp thêm minh chứng.",
+    "reference_context": "Students who are citizens or permanent residents of majority English-speaking countries are exempt from needing to provide additional proof of English proficiency for graduation.",
+    "answer": "Những sinh viên là công dân hoặc thường trú nhân của các quốc gia đa số sử dụng tiếng Anh được miễn cung cấp thêm minh chứng năng lực tiếng Anh để tốt nghiệp [Source 1].",
+    "contexts": [
+      "English proficiency to graduate.\n## 5. EXEMPTIONS\nStudents who are citizens or permanent residents of [majority English-speaking countries](https://www.sheffield.ac.uk/international/english-speaking-countries) (see link) are exempt from needing to provide additional proof of English proficiency for graduation.\n## 6. IMPLEMENTATION\n6.1. The Office of University Registrar is responsible for verifying students’ English proficiency status before approving them for graduation.\n6.2.",
+      "ill not need to take an English proficiency test. Countries recognized as majority English speaking are based on the guidance of the government of the United Kingdom and can be found  _[here.](https://www.gov.uk/student-visa/knowledge-of-english)_\n#### 3.2.3. Prior study\nApplicants will be considered to have satisfied VinUniversity’s English proficiency requirements, and will therefore not be required to submit standardized English test results, if they meet the following conditions:\n1.",
+      "versity.\n\n#### 3.2.2. Citizenship/resident status\nCitizens or permanent residents of a majority English speaking country who have undertaken secondary and/or tertiary study in English, at a recognized institution, in the national education system, will be considered to have met the VinUniversity English proficiency requirements and will not need to take an English proficiency test.",
+      "English proficiency requirements for graduation.\nGraduate Medical Education (GME) residents who have either submitted a valid certificate equivalent to Level 4 or higher based on the 6-level Foreign Language Proficiency Framework for Vietnam (VSTEP) or completed the Medical English course with a passing grade have demonstrated sufficient English proficiency to graduate.\n## 5. EXEMPTIONS",
+      "ENTS\n### 4.1. English Language Entry Requirements\nTo be eligible for graduation, students must provide evidence of English language proficiency through one of the accepted methods listed in the VinUniversity English Entry Requirements Policy."
+    ],
+    "source_ids": [
+      "news/article_02.md::chunk-7",
+      "news/article_01.md::chunk-19",
+      "news/article_01.md::chunk-18",
+      "news/article_02.md::chunk-6",
+      "news/article_02.md::chunk-3"
+    ],
+    "latency_seconds": 8.64,
+    "scores": {}
+  },
+  {
+    "case": 16,
+    "config": "B",
+    "strategy": "hybrid+RRF",
+    "question": "Ai được miễn cung cấp thêm minh chứng tiếng Anh khi tốt nghiệp VinUni?",
+    "reference": "Sinh viên là công dân hoặc thường trú nhân của các quốc gia có đa số người dùng tiếng Anh được miễn cung cấp thêm minh chứng.",
+    "reference_context": "Students who are citizens or permanent residents of majority English-speaking countries are exempt from needing to provide additional proof of English proficiency for graduation.",
+    "answer": "Dựa trên các tài liệu được cung cấp, những sinh viên là công dân hoặc thường trú nhân của các quốc gia sử dụng tiếng Anh là ngôn ngữ chính (majority English-speaking countries) được miễn cung cấp thêm minh chứng về năng lực tiếng Anh để tốt nghiệp [Source 2].",
+    "contexts": [
+      "b) Có trình độ ngoại ngữ đạt yêu cầu theo chuẩn đầu ra của chương trình đào tạo trước thời điểm xét tốt nghiệp; được minh chứng bằng một trong các văn bằng hoặc chứng chỉ ngoại ngữ đạt trình độ tương đương Bậc 4 theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam hoặc các chứng chỉ tương đương khác do Bộ Giáo dục và Đào tạo công bố, hoặc bằng tốt nghiệp trình độ đại học trở lên ngành ngôn ngữ nước ngoài, hoặc bằng tốt nghiệp trình độ đại học trở lên ngành khác mà chương trình được thực hiện ho",
+      "ữa bệnh nhân và cán bộ y tế) đều bằng tiếng Việt. Đối với những sinh viên có định hướng thực hành lâm sàng tại Việt Nam sau khi tốt nghiệp, theo Luật Khám bệnh, Chữa bệnh do Quốc hội ban hành, thì các kỳ thi cấp phép/chứng chỉ hành nghề quốc gia sắp tới dành cho sinh viên tốt nghiệp ngành y và điều dưỡng sẽ được triển khai bằng tiếng Việt. Do vậy, Nhà trường sẽ cung cấp những hỗ trợ cần thiết cho sinh viên quốc tế nâng cao năng lực tiếng Việt.",
+      "English proficiency to graduate.\n## 5. EXEMPTIONS\nStudents who are citizens or permanent residents of [majority English-speaking countries](https://www.sheffield.ac.uk/international/english-speaking-countries) (see link) are exempt from needing to provide additional proof of English proficiency for graduation.\n## 6. IMPLEMENTATION\n6.1. The Office of University Registrar is responsible for verifying students’ English proficiency status before approving them for graduation.\n6.2.",
+      "kiến kế hoạch học tập, nghiên cứu toàn khóa.\n\n2. Người dự tuyển là công dân Việt Nam phải đạt yêu cầu về năng lực ngoại ngữ được minh chứng bằng một trong những văn bằng, chứng chỉ sau:\n\na) Bằng tốt nghiệp trình độ đại học trở lên do một Trường nước ngoài, phân hiệu của Trường nước ngoài ở Việt Nam hoặc Trường của Việt Nam cấp cho người học toàn thời gian bằng tiếng nước ngoài;\n\nb) Bằng tốt nghiệp trình độ đại học ngành ngôn ngữ tiếng nước ngoài do các Trường của Việt Nam cấp;",
+      "ill not need to take an English proficiency test. Countries recognized as majority English speaking are based on the guidance of the government of the United Kingdom and can be found  _[here.](https://www.gov.uk/student-visa/knowledge-of-english)_\n#### 3.2.3. Prior study\nApplicants will be considered to have satisfied VinUniversity’s English proficiency requirements, and will therefore not be required to submit standardized English test results, if they meet the following conditions:\n1."
+    ],
+    "source_ids": [
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-60",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-23",
+      "news/article_02.md::chunk-7",
+      "legal/230515_VUNI_Quy-che-dao-tao-Tien-si.md::chunk-24",
+      "news/article_01.md::chunk-19"
+    ],
+    "latency_seconds": 8.998,
+    "scores": {}
+  },
+  {
+    "case": 17,
+    "config": "A",
+    "strategy": "dense-only",
+    "question": "Yêu cầu chuyển chương trình nộp từ ngày 1/7 đến 15/8 sẽ có hiệu lực vào học kỳ nào?",
+    "reference": "Yêu cầu trong giai đoạn 1/7–15/8 sẽ có hiệu lực vào học kỳ Thu.",
+    "reference_context": "Submit the request between: 1 July – 15 August. Normally processed by: At least one week before the first day of the course registration period for the next semester. Effective semester: Fall semester.",
+    "answer": "Yêu cầu chuyển chương trình nộp từ ngày 1/7 đến 15/8 sẽ có hiệu lực vào học kỳ mùa Thu (Fall semester) [Source 2].",
+    "contexts": [
+      "phép thay đổi chương trình một lần trong năm học. Yêu cầu thay đổi sẽ được xử lý một lần mỗi học kỳ, thay đổi sẽ có hiệu lực từ đầu học kỳ tiếp theo.\n\nd) Các Viện có thể đặt ra các tiêu chí cụ thể cho từng chương trình ngoài các yêu cầu chung của trường (trình độ học vấn, yếu tố EXCEL, v.v.).\n\ne) Nếu một sinh viên đã nhận được tín chỉ chuyển đổi từ trường khác khi đăng ký đầu vào tại VinUni, việc chuyển đổi tín chỉ có thể được đánh giá lại do yêu cầu thay đổi.\n\n2.",
+      "bmit the request between: 1 November – January 15\n- **Normally processed by:** Spring semester\n**Note:**\n- Colleges/Faculty may require student’s final grades before approving a program change request. If the request is approved after grades are released, the program change will be made effective for the first available academic semester.\n\n### 4.3 Procedures for the implementation of program change request\n\n#### Step: 1\n- **Responsibility:** Student / Academic Advisor",
+      "edit may be re-assessed for the requested change.\n[[1]](https://policy.vinuni.edu.vn/all-policies/guideline-for-program-change-request/#_ftnref1) In accordance with MOET’s guideline\n### 4.2 Timelines\n\n#### Submit the request between: 1 July – 15 August\n- **Normally processed by:** At least one week before the first day of the course registration period for the next semester.\n- **Effective semester:** Fall semester\n\n#### Submit the request between: 1 November – January 15",
+      "học kỳ chính đầu tiên của sinh viên tại VinUni.\n\nb) Trong quá trình đăng kí nhập học: Sinh viên đang hoàn thành việc học tại một trường khác trong quá trình đăng ký vào VinUni, đơn yêu cầu phải được nộp để phê duyệt trong thời gian không quá một tháng sau khi sinh viên trở lại học tại VinUni. Các đơn yêu cầu phải được gửi đến Phòng Quản lý Đào tạo.",
+      "- **Responsibility:** Student / Academic Advisor\n- **Workflow:** Make a request for program change ([FRM06](https://vinuniversity.sharepoint.com/sites/OfficeofRegistrar/SitePages/Registry-Service-Forms.aspx))\n- **Time:** Start 1 July or 1 November annually"
+    ],
+    "source_ids": [
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-115",
+      "news/article_03.md::chunk-6",
+      "news/article_03.md::chunk-5",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-74",
+      "news/article_03.md::chunk-7"
+    ],
+    "latency_seconds": 2.772,
+    "scores": {}
+  },
+  {
+    "case": 17,
+    "config": "B",
+    "strategy": "hybrid+RRF",
+    "question": "Yêu cầu chuyển chương trình nộp từ ngày 1/7 đến 15/8 sẽ có hiệu lực vào học kỳ nào?",
+    "reference": "Yêu cầu trong giai đoạn 1/7–15/8 sẽ có hiệu lực vào học kỳ Thu.",
+    "reference_context": "Submit the request between: 1 July – 15 August. Normally processed by: At least one week before the first day of the course registration period for the next semester. Effective semester: Fall semester.",
+    "answer": "Dựa trên các tài liệu được cung cấp, không có thông tin nào đề cập đến thời điểm có hiệu lực cụ thể đối với yêu cầu chuyển chương trình được nộp từ ngày 1/7 đến 15/8. Do đó, tôi từ chối xác minh thông tin này theo context.",
+    "contexts": [
+      "phép thay đổi chương trình một lần trong năm học. Yêu cầu thay đổi sẽ được xử lý một lần mỗi học kỳ, thay đổi sẽ có hiệu lực từ đầu học kỳ tiếp theo.\n\nd) Các Viện có thể đặt ra các tiêu chí cụ thể cho từng chương trình ngoài các yêu cầu chung của trường (trình độ học vấn, yếu tố EXCEL, v.v.).\n\ne) Nếu một sinh viên đã nhận được tín chỉ chuyển đổi từ trường khác khi đăng ký đầu vào tại VinUni, việc chuyển đổi tín chỉ có thể được đánh giá lại do yêu cầu thay đổi.\n\n2.",
+      "ên sẽ được coi là đáp ứng yêu cầu tiên quyết.\n\n3. Quy trình gửi yêu cầu Sinh viên có thể nộp Đơn xin chuyển đổi tín chỉ hoặc đơn xin miễn học phần của chương trình học trong hai thời điểm sau:\n\na) Trước khi nhập học: Sinh viên cần trình bày quá trình học tập trước đó trong đơn xin nhập học và đơn xin chuyển đổi tín chỉ hoặc đơn xin miễn trừ, sau đó nộp đơn để phê duyệt trước khi bắt đầu học kỳ chính đầu tiên của sinh viên tại VinUni.",
+      "Anh.\n\nd) Vì lý do cá nhân hoặc gia cảnh khó khăn. Trường hợp này, sinh viên phải học ít nhất một học kỳ ở trường, không rơi vào các trường hợp bị buộc thôi học quy định tại Điều 15 của Quy chế này . Thời gian nghỉ học tạm thời vì nhu cầu cá nhân phải được tính vào thời gian học chính thức tại trường.\n\n3. Đơn xin nghỉ học tạm thời/thôi học cho kỳ học sắp tới sẽ có hiệu lực từ ngày cuối cùng của học kỳ đang học. Đơn xin nghỉ học tạm thời học kỳ đang học sẽ có hiệu lực kể từ ngày nộp đơn.\n\n4.",
+      "bmit the request between: 1 November – January 15\n- **Normally processed by:** Spring semester\n**Note:**\n- Colleges/Faculty may require student’s final grades before approving a program change request. If the request is approved after grades are released, the program change will be made effective for the first available academic semester.\n\n### 4.3 Procedures for the implementation of program change request\n\n#### Step: 1\n- **Responsibility:** Student / Academic Advisor",
+      "duyệt bởi Viện trưởng (hoặc người được ủy quyền). Nếu được chấp thuận, thay đổi sẽ có hiệu lực từ học kỳ sau.\n\n6. Trừ khi được Trường chấp thuận, sinh viên được nhận vào chương trình học toàn thời gian sẽ không được phép đăng ký học toàn thời gian hoặc bán thời gian tại các cơ sở đại học hoặc bất kỳ tổ chức đào tạo nào khác.\n\n### Điều 9. Sắp xếp sinh viên vào học các chương trình hoặc ngành đào tạo\n\n1. Lớp học sẽ được sắp xếp theo từng khóa học mà sinh viên đăng ký trong mỗi học kỳ."
+    ],
+    "source_ids": [
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-115",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-73",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-80",
+      "news/article_03.md::chunk-6",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-52"
+    ],
+    "latency_seconds": 2.924,
+    "scores": {}
+  },
+  {
+    "case": 18,
+    "config": "A",
+    "strategy": "dense-only",
+    "question": "Sinh viên phải nộp khiếu nại điểm chính thức trong thời hạn bao lâu?",
+    "reference": "Sinh viên phải nộp khiếu nại chính thức trong vòng 5 ngày làm việc sau khi điểm chính thức được đăng trên Canvas.",
+    "reference_context": "Formal Appeal: Within five (05) working days after the official grade posting on Canvas.",
+    "answer": "Dựa trên các tài liệu được cung cấp, thời hạn liên quan đến việc phản ánh hoặc khiếu nại về điểm được quy định như sau:\n\n* Sinh viên cần phản ánh cho Giảng viên và Phòng Quản lý Đào tạo trong vòng **năm (05) ngày làm việc** sau khi có kết quả điểm chính thức trên Canvas nếu nhận thấy bất kỳ lỗi/sai sót nào [Source 5].\n* Nếu vấn đề điểm số chưa được giải quyết sau khi phản ánh với giảng viên, sinh viên có thể tiếp tục phản ánh lên Giám đốc Chương trình/Trưởng khoa bằng văn bản trong vòng **hai tuần** sau khi công bố điểm [Source 1, Source 3].",
+    "contexts": [
+      "văn bản trong vòng hai tuần sau khi công bố điểm. Văn bản phải nêu rõ lý do, các sự kiện có liên quan và bằng chứng hỗ trợ. Giám đốc Chương trình/Trưởng khoa có thể chọn từ chối phúc tra, hòa giải thay đổi điểm số với giảng viên dạy học phần hoặc xin ý kiến của Hội đồng Học thuật của Viện/Khoa. Quyết định cuối cùng phải được đưa ra trong vòng ba tuần sau khi công bố điểm thi cuối cùng.\n\n## Chương V: XÉT VÀ CÔNG NHẬN TỐT NGHIỆP\n\n### Điều 28. Công nhận tốt nghiệp\n\n1.",
+      "ong các bài kiểm tra).\n\n### Điều 27. Phúc tra\n\n1. Sinh viên cần phản ánh cho Giảng viên và Phòng Quản lý Đào tạo trong vòng năm (05) ngày làm việc sau khi có kết quả điểm chính thức trên Canvas nếu nhận thấy bất kỳ lỗi/sai sót nào.\n\n2. Nếu điểm số không chính xác, sinh viên nên thông báo cho giảng viên dạy học phần ngay khi có kết quả.",
+      "xét lại điểm nếu nhận được phản ánh từ sinh viên. Sinh viên sẽ không bị trừ điểm trừ trường hợp bị phát hiện vi phạm trong liêm chính học thuật.\n\n2. Giảng viên dạy học phần phải thông báo điểm không quá bảy (07) ngày làm việc sau ngày thi cuối cùng trừ khi có sự cho phép của Phòng Quản lý Đào tạo. Nếu giảng viên quyết định thay đổi điểm sau thời hạn trên, phải gửi điểm mới kèm giải thích bằng văn bản cho Phòng Quản lý Đào tạo.\n\n3.",
+      "học kỳ (bài kiểm tra cuối hoặc bài tập bắt buộc). Điểm chưa hoàn thành phải được chuyển đổi thành điểm Chưa đủ dữ thông thường trong vòng sáu tháng kể từ khi được xác định. I liệu đánh Sinh viên phải gửi thông báo cho Phòng Quản lý Đào tạo, giá cùng với các tài liệu hỗ trợ liên quan (ví dụ: sổ y bạ), sau đó Phòng Quản lý Đào tạo sẽ thông báo cho giảng viên dạy học phần. Khi xác định sinh viên chưa hoàn thành, giảng viên phải chỉ định một khoảng thời gian (thời hạn) cho việc học\n\nbù.",
+      "cho giảng viên dạy học phần ngay khi có kết quả. Trường hợp đã xảy ra lỗi văn thư hoặc hành chính, bộ môn/khoa hoặc đơn vị học thuật chịu trách nhiệm về học phần sẽ báo cáo điểm sửa đổi cho Phòng Quản lý Đào tạo.\n\n3. Nếu vấn đề điểm của sinh viên vẫn chưa được giải quyết sau khi phản ánh với giảng viên dạy học phần, sinh viên có thể tiếp tục phản ánh lên Giám đốc Chương trình/ Trưởng khoa bằng văn bản trong vòng hai tuần sau khi công bố điểm."
+    ],
+    "source_ids": [
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-175",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-173",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-151",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-157",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-174"
+    ],
+    "latency_seconds": 4.17,
+    "scores": {}
+  },
+  {
+    "case": 18,
+    "config": "B",
+    "strategy": "hybrid+RRF",
+    "question": "Sinh viên phải nộp khiếu nại điểm chính thức trong thời hạn bao lâu?",
+    "reference": "Sinh viên phải nộp khiếu nại chính thức trong vòng 5 ngày làm việc sau khi điểm chính thức được đăng trên Canvas.",
+    "reference_context": "Formal Appeal: Within five (05) working days after the official grade posting on Canvas.",
+    "answer": "Dựa trên context được cung cấp, các mốc thời gian liên quan đến việc phản ánh hoặc khiếu nại về điểm số được quy định như sau:\n\n* Sinh viên cần phản ánh cho Giảng viên và Phòng Quản lý Đào tạo trong vòng **năm (05) ngày làm việc** sau khi có kết quả điểm chính thức trên Canvas nếu nhận thấy bất kỳ lỗi/sai sót nào [Source 3].\n* Văn bản phúc tra phải được thực hiện trong vòng **hai tuần** sau khi công bố điểm (văn bản phải nêu rõ lý do, các sự kiện liên quan và bằng chứng hỗ trợ) [Source 2].",
+    "contexts": [
+      "xét lại điểm nếu nhận được phản ánh từ sinh viên. Sinh viên sẽ không bị trừ điểm trừ trường hợp bị phát hiện vi phạm trong liêm chính học thuật.\n\n2. Giảng viên dạy học phần phải thông báo điểm không quá bảy (07) ngày làm việc sau ngày thi cuối cùng trừ khi có sự cho phép của Phòng Quản lý Đào tạo. Nếu giảng viên quyết định thay đổi điểm sau thời hạn trên, phải gửi điểm mới kèm giải thích bằng văn bản cho Phòng Quản lý Đào tạo.\n\n3.",
+      "ỳ đầu tiên của một học phần học qua nhiều học kỳ. Điểm cuối cùng thể hiện trong học kỳ cuối cùng của học phần đó. Do hoàn cảnh bất khả kháng, Phòng Quản lý Đào tạo không Chưa nhận nhận được điểm của sinh viên và phải để kết quả điểm là NGR được kết NGR. Điểm NGR phải được chuyển thành điểm chính thức quả thi càng sớm càng tốt và/ hoặc không được muộn hơn thời điểm xét tốt nghiệp. Khi sinh viên đã đăng ký học phần trong một học kỳ nhưng sau đó xin bỏ môn.",
+      "văn bản trong vòng hai tuần sau khi công bố điểm. Văn bản phải nêu rõ lý do, các sự kiện có liên quan và bằng chứng hỗ trợ. Giám đốc Chương trình/Trưởng khoa có thể chọn từ chối phúc tra, hòa giải thay đổi điểm số với giảng viên dạy học phần hoặc xin ý kiến của Hội đồng Học thuật của Viện/Khoa. Quyết định cuối cùng phải được đưa ra trong vòng ba tuần sau khi công bố điểm thi cuối cùng.\n\n## Chương V: XÉT VÀ CÔNG NHẬN TỐT NGHIỆP\n\n### Điều 28. Công nhận tốt nghiệp\n\n1.",
+      "o tạo thứ nhất.\n\n### Điều 8. Đăng ký nhập học\n\n1. Sinh viên nhập học phải nộp đầy đủ giấy tờ theo quy định của Quy chế tuyển sinh đại học hệ chính quy hiện hành của Trường. Hiệu trưởng ký quyết định công nhận sinh viên chính thức của Trường.\n\n2. Mọi thủ tục đăng ký nhập học phải được hoàn thành trong thời hạn theo quy định tại Quy chế tuyển sinh đại học hệ chính quy hiện hành.\n\n3.",
+      "ong các bài kiểm tra).\n\n### Điều 27. Phúc tra\n\n1. Sinh viên cần phản ánh cho Giảng viên và Phòng Quản lý Đào tạo trong vòng năm (05) ngày làm việc sau khi có kết quả điểm chính thức trên Canvas nếu nhận thấy bất kỳ lỗi/sai sót nào.\n\n2. Nếu điểm số không chính xác, sinh viên nên thông báo cho giảng viên dạy học phần ngay khi có kết quả."
+    ],
+    "source_ids": [
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-151",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-160",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-175",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-50",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-173"
+    ],
+    "latency_seconds": 3.695,
+    "scores": {}
+  },
+  {
+    "case": 19,
+    "config": "A",
+    "strategy": "dense-only",
+    "question": "Nếu không hài lòng với kết quả khiếu nại điểm, quyết định cuối cùng của University Appeals Committee phải có trong bao lâu?",
+    "reference": "Quyết định cuối cùng phải được đưa ra trong vòng 3 tuần sau khi điểm cuối cùng được đăng trên Canvas.",
+    "reference_context": "Further Appeal: A final decision must be made within three (03) weeks after final grades have been posted on Canvas.",
+    "answer": "Nếu không hài lòng với kết quả khiếu nại điểm, quyết định cuối cùng (a final decision) của University Appeals Committee phải được đưa ra trong vòng ba (03) tuần sau khi điểm cuối cùng đã được đăng tải trên Canvas [Source 2].",
+    "contexts": [
+      "peal is rejected, provide a detailed explanation. – If the student is dissatisfied with the outcome, they may escalate the appeal to the University Appeals Committee (refer to Step 5).\n- **Timeline:** Two (02) working days to decide and communicate the decision\n- **Note:** – PD makes the final decision, signs the form, and sends it to AQA (Testing Unit). AQA confirms the outcome of the appeal and signs.",
+      "văn bản trong vòng hai tuần sau khi công bố điểm. Văn bản phải nêu rõ lý do, các sự kiện có liên quan và bằng chứng hỗ trợ. Giám đốc Chương trình/Trưởng khoa có thể chọn từ chối phúc tra, hòa giải thay đổi điểm số với giảng viên dạy học phần hoặc xin ý kiến của Hội đồng Học thuật của Viện/Khoa. Quyết định cuối cùng phải được đưa ra trong vòng ba tuần sau khi công bố điểm thi cuối cùng.\n\n## Chương V: XÉT VÀ CÔNG NHẬN TỐT NGHIỆP\n\n### Điều 28. Công nhận tốt nghiệp\n\n1.",
+      "artment in charge:** University Appeals Committee\n- **Tasks:** – Review the appeal in its entirety, including all documentation and prior decisions.\n- **Timeline:** A final decision must be made within three (03) weeks after final grades have been posted on Canvas\n- **Note:** – Members of the University Appeal Committee may come from the Educational Affairs Committee. – The decision made by the university-wide committee is typically final and binding.\n\n#### Steps: **6 – Record Keeping**",
+      "eceipt of the appeal from the AQA (Testing Unit).\n- **Note:** If an in-depth investigation is required or if there are a significant number of requests for a single program to manage, the timeline may be extended.\n\n#### Steps: **4 – Decision**\n- **Individual/ Department in charge:** Program Director / Designated Committee\n- **Tasks:** – PD decides on the appeal – either uphold, amend, or reject the grade based on the appeal’s merits. If the appeal is rejected, provide a detailed explanation.",
+      "ong các bài kiểm tra).\n\n### Điều 27. Phúc tra\n\n1. Sinh viên cần phản ánh cho Giảng viên và Phòng Quản lý Đào tạo trong vòng năm (05) ngày làm việc sau khi có kết quả điểm chính thức trên Canvas nếu nhận thấy bất kỳ lỗi/sai sót nào.\n\n2. Nếu điểm số không chính xác, sinh viên nên thông báo cho giảng viên dạy học phần ngay khi có kết quả."
+    ],
+    "source_ids": [
+      "news/article_04.md::chunk-11",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-175",
+      "news/article_04.md::chunk-13",
+      "news/article_04.md::chunk-10",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-173"
+    ],
+    "latency_seconds": 2.751,
+    "scores": {}
+  },
+  {
+    "case": 19,
+    "config": "B",
+    "strategy": "hybrid+RRF",
+    "question": "Nếu không hài lòng với kết quả khiếu nại điểm, quyết định cuối cùng của University Appeals Committee phải có trong bao lâu?",
+    "reference": "Quyết định cuối cùng phải được đưa ra trong vòng 3 tuần sau khi điểm cuối cùng được đăng trên Canvas.",
+    "reference_context": "Further Appeal: A final decision must be made within three (03) weeks after final grades have been posted on Canvas.",
+    "answer": "Nếu không hài lòng với kết quả khiếu nại điểm, quyết định cuối cùng của University Appeals Committee phải được đưa ra trong vòng ba (03) tuần sau khi điểm cuối cùng được đăng lên Canvas [Source 1].",
+    "contexts": [
+      "artment in charge:** University Appeals Committee\n- **Tasks:** – Review the appeal in its entirety, including all documentation and prior decisions.\n- **Timeline:** A final decision must be made within three (03) weeks after final grades have been posted on Canvas\n- **Note:** – Members of the University Appeal Committee may come from the Educational Affairs Committee. – The decision made by the university-wide committee is typically final and binding.\n\n#### Steps: **6 – Record Keeping**",
+      "văn bản trong vòng hai tuần sau khi công bố điểm. Văn bản phải nêu rõ lý do, các sự kiện có liên quan và bằng chứng hỗ trợ. Giám đốc Chương trình/Trưởng khoa có thể chọn từ chối phúc tra, hòa giải thay đổi điểm số với giảng viên dạy học phần hoặc xin ý kiến của Hội đồng Học thuật của Viện/Khoa. Quyết định cuối cùng phải được đưa ra trong vòng ba tuần sau khi công bố điểm thi cuối cùng.\n\n## Chương V: XÉT VÀ CÔNG NHẬN TỐT NGHIỆP\n\n### Điều 28. Công nhận tốt nghiệp\n\n1.",
+      "xét lại điểm nếu nhận được phản ánh từ sinh viên. Sinh viên sẽ không bị trừ điểm trừ trường hợp bị phát hiện vi phạm trong liêm chính học thuật.\n\n2. Giảng viên dạy học phần phải thông báo điểm không quá bảy (07) ngày làm việc sau ngày thi cuối cùng trừ khi có sự cho phép của Phòng Quản lý Đào tạo. Nếu giảng viên quyết định thay đổi điểm sau thời hạn trên, phải gửi điểm mới kèm giải thích bằng văn bản cho Phòng Quản lý Đào tạo.\n\n3.",
+      "lệ phí thi lại theo quy định (nếu có phát sinh).\n\ng) Học viên đủ điều kiện dự thi nhưng vắng thi lần 1 không có lý do thì kết quả thi học phần nhận điểm không (0).\n\n5. Việc tổ chức đánh giá môn học, xử lý khiếu nại, vi phạm trong quá trình đánh giá môn học theo quy định hiện hành.\n\n6. Việc lấy ý kiến phản hồi của người học triển khai theo quy định hiện hành của Trường.\n\n## Chương III: TỔ CHỨC THỰC HIỆN LUẬN VĂN, ĐỀ ÁN VÀ CÔNG NHẬN TỐT NGHIỆP\n\n### Điều 8. Hướng dẫn luận văn\n\n1.",
+      "peal is rejected, provide a detailed explanation. – If the student is dissatisfied with the outcome, they may escalate the appeal to the University Appeals Committee (refer to Step 5).\n- **Timeline:** Two (02) working days to decide and communicate the decision\n- **Note:** – PD makes the final decision, signs the form, and sends it to AQA (Testing Unit). AQA confirms the outcome of the appeal and signs."
+    ],
+    "source_ids": [
+      "news/article_04.md::chunk-13",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-175",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-151",
+      "legal/VU_HT02.VN_Quy-che-dao-tao-Trinh-do-Thac-sy_20.12.2022.md::chunk-38",
+      "news/article_04.md::chunk-11"
+    ],
+    "latency_seconds": 3.028,
+    "scores": {}
+  },
+  {
+    "case": 20,
+    "config": "A",
+    "strategy": "dense-only",
+    "question": "Sinh viên muốn quay lại sau thời gian nghỉ học phải nộp yêu cầu trước khi học kỳ bắt đầu bao lâu?",
+    "reference": "Sinh viên phải nộp yêu cầu ít nhất 1 tháng trước khi học kỳ quay lại bắt đầu.",
+    "reference_context": "Student returning from a leave of absence need to fill out the form. Timeline: At least one month before the start of the semester to resume studies.",
+    "answer": "Sinh viên muốn trở lại học tiếp tại trường sau thời gian nghỉ học tạm thời phải viết đơn gửi Phòng Quản lý Đào tạo ít nhất một tháng trước khi bắt đầu học kỳ mới [Source 1, Source 5].",
+    "contexts": [
+      "o ít nhất một tháng trước khi bắt đầu học kỳ mới. Đồng thời để nhà trường đánh giá khả năng sinh viên có thể được quay trở lại học, sinh viên cần gửi kèm theo tài liệu giải trình các hoạt động đã diễn ra trong thời gian nghỉ. Phòng Quản lý Đào tạo sẽ thông báo cho sinh viên khi có quyết định cuối cùng. Nếu sinh viên không quay lại học sau khi hết hạn hoặc không kịp gia hạn, sinh viên đó sẽ bị buộc thôi học. Để quay lại học, sinh viên phải nộp đơn xin nhập học lại từ đầu với Phòng Tuyển sinh.",
+      "ỳ đang học sẽ có hiệu lực kể từ ngày nộp đơn.\n\n4. Để bảo lưu kết quả học, sinh viên phải chuẩn bị đơn cũng như các giấy tờ minh chứng cần thiết và được sự cho phép của cố vấn học tập. Sau khi có kết quả cuối cùng, Phòng Quản lý Đào tạo sẽ xem xét các yêu cầu với Viện và thông báo cho sinh viên.\n\n5. Sinh viên đang nghỉ học tạm thời khi muốn trở lại học tiếp tại trường, phải viết đơn gửi Phòng Quản lý Đào tạo ít nhất một tháng trước khi bắt đầu học kỳ mới.",
+      "học kỳ chính đầu tiên của sinh viên tại VinUni.\n\nb) Trong quá trình đăng kí nhập học: Sinh viên đang hoàn thành việc học tại một trường khác trong quá trình đăng ký vào VinUni, đơn yêu cầu phải được nộp để phê duyệt trong thời gian không quá một tháng sau khi sinh viên trở lại học tại VinUni. Các đơn yêu cầu phải được gửi đến Phòng Quản lý Đào tạo.",
+      "1\n- **Individual/ Department in charge:** Student\n- **Tasks:** – Student returning from a leave of absence need to fill out the form ([Here](https://vinuniversity.sharepoint.com/sites/OfficeofRegistrar/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FOfficeofRegistrar%2FShared%20Documents%2FRegistrar%20Forms%2FFRM09%5FVinUni%5FRequest%2Dto%2Dreturn%2Dfrom%2Da%2Dleave%2Dof%2Dabsence%2Epdf&parent=%2Fsites%2FOfficeofRegistrar%2FShared%20Documents%2FRegistrar%20Forms&p=true&ga=1)).",
+      "ết quả đã học có thể gửi yêu cầu cho Viện trưởng. Sinh viên có thể được nghỉ từ một đến hai học kỳ tùy từng trường hợp. Sau khi kết thúc thời gian bảo lưu, sinh viên phải liên hệ nhà trường để xin gia hạn trong trường hợp muốn kéo dài thời gian bảo lưu.\n\n2. Sinh viên được xin nghỉ học tạm thời và bảo lưu kết quả học tập trong các trường hợp sau:\n\na) Được điều động vào các lực lượng vũ trang (cần có thư xác thực);"
+    ],
+    "source_ids": [
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-82",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-81",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-74",
+      "news/article_05.md::chunk-16",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-78"
+    ],
+    "latency_seconds": 2.94,
+    "scores": {}
+  },
+  {
+    "case": 20,
+    "config": "B",
+    "strategy": "hybrid+RRF",
+    "question": "Sinh viên muốn quay lại sau thời gian nghỉ học phải nộp yêu cầu trước khi học kỳ bắt đầu bao lâu?",
+    "reference": "Sinh viên phải nộp yêu cầu ít nhất 1 tháng trước khi học kỳ quay lại bắt đầu.",
+    "reference_context": "Student returning from a leave of absence need to fill out the form. Timeline: At least one month before the start of the semester to resume studies.",
+    "answer": "Sinh viên muốn trở lại học tiếp tại trường sau thời gian nghỉ học tạm thời phải viết đơn gửi Phòng Quản lý Đào tạo ít nhất một tháng trước khi bắt đầu học kỳ mới [Source 1, Source 5].",
+    "contexts": [
+      "o ít nhất một tháng trước khi bắt đầu học kỳ mới. Đồng thời để nhà trường đánh giá khả năng sinh viên có thể được quay trở lại học, sinh viên cần gửi kèm theo tài liệu giải trình các hoạt động đã diễn ra trong thời gian nghỉ. Phòng Quản lý Đào tạo sẽ thông báo cho sinh viên khi có quyết định cuối cùng. Nếu sinh viên không quay lại học sau khi hết hạn hoặc không kịp gia hạn, sinh viên đó sẽ bị buộc thôi học. Để quay lại học, sinh viên phải nộp đơn xin nhập học lại từ đầu với Phòng Tuyển sinh.",
+      "ỳ đang học sẽ có hiệu lực kể từ ngày nộp đơn.\n\n4. Để bảo lưu kết quả học, sinh viên phải chuẩn bị đơn cũng như các giấy tờ minh chứng cần thiết và được sự cho phép của cố vấn học tập. Sau khi có kết quả cuối cùng, Phòng Quản lý Đào tạo sẽ xem xét các yêu cầu với Viện và thông báo cho sinh viên.\n\n5. Sinh viên đang nghỉ học tạm thời khi muốn trở lại học tiếp tại trường, phải viết đơn gửi Phòng Quản lý Đào tạo ít nhất một tháng trước khi bắt đầu học kỳ mới.",
+      "học kỳ chính đầu tiên của sinh viên tại VinUni.\n\nb) Trong quá trình đăng kí nhập học: Sinh viên đang hoàn thành việc học tại một trường khác trong quá trình đăng ký vào VinUni, đơn yêu cầu phải được nộp để phê duyệt trong thời gian không quá một tháng sau khi sinh viên trở lại học tại VinUni. Các đơn yêu cầu phải được gửi đến Phòng Quản lý Đào tạo.",
+      "ết quả đã học có thể gửi yêu cầu cho Viện trưởng. Sinh viên có thể được nghỉ từ một đến hai học kỳ tùy từng trường hợp. Sau khi kết thúc thời gian bảo lưu, sinh viên phải liên hệ nhà trường để xin gia hạn trong trường hợp muốn kéo dài thời gian bảo lưu.\n\n2. Sinh viên được xin nghỉ học tạm thời và bảo lưu kết quả học tập trong các trường hợp sau:\n\na) Được điều động vào các lực lượng vũ trang (cần có thư xác thực);",
+      "ên sẽ được coi là đáp ứng yêu cầu tiên quyết.\n\n3. Quy trình gửi yêu cầu Sinh viên có thể nộp Đơn xin chuyển đổi tín chỉ hoặc đơn xin miễn học phần của chương trình học trong hai thời điểm sau:\n\na) Trước khi nhập học: Sinh viên cần trình bày quá trình học tập trước đó trong đơn xin nhập học và đơn xin chuyển đổi tín chỉ hoặc đơn xin miễn trừ, sau đó nộp đơn để phê duyệt trước khi bắt đầu học kỳ chính đầu tiên của sinh viên tại VinUni."
+    ],
+    "source_ids": [
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-82",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-81",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-74",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-78",
+      "legal/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.md::chunk-73"
+    ],
+    "latency_seconds": 2.937,
+    "scores": {}
+  }
+]
