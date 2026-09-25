@@ -11,6 +11,8 @@ Ví dụ tài liệu: học phí, học bổng, ký túc xá, quy trình đăng 
 Nếu website chặn crawler, hãy chọn nguồn công khai khác; không vượt WAF.
 """
 
+import json
+import os
 from pathlib import Path
 
 import requests

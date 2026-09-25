@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Khối lượng học tập tối thiểu của chương trình tiến sĩ là bao nhiêu tín chỉ?",
+    "expected_answer": "Nghiên cứu sinh có bằng thạc sĩ phải học tối thiểu 90 tín chỉ; nghiên cứu sinh có bằng đại học phải học tối thiểu 120 tín chỉ.",
+    "expected_context": "Khối lượng học tập tối thiểu 90 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp thạc sĩ và tối thiểu 120 tín chỉ đối với nghiên cứu sinh có bằng tốt nghiệp đại học."
+  },
+  {
+    "question": "Thời gian đào tạo tiêu chuẩn trình độ tiến sĩ tại VinUni là bao lâu?",
+    "expected_answer": "Thời gian tiêu chuẩn là 3 năm (36 tháng) với người có bằng thạc sĩ và 4 năm (48 tháng) với người tốt nghiệp đại học, không qua đào tạo thạc sĩ.",
+    "expected_context": "Thời gian đào tạo tiêu chuẩn của trình độ tiến sĩ từ 03 năm (36 tháng) đối với nghiên cứu sinh có bằng thạc sĩ đến 04 năm (48 tháng) đối với nghiên cứu sinh đã tốt nghiệp đại học, không qua đào tạo thạc sĩ."
+  },
+  {
+    "question": "Một giáo sư được hướng dẫn độc lập tối đa bao nhiêu nghiên cứu sinh cùng lúc?",
+    "expected_answer": "Giáo sư được hướng dẫn độc lập tối đa 7 nghiên cứu sinh tại cùng một thời điểm.",
+    "expected_context": "Tại cùng một thời điểm, người có chức danh giáo sư được hướng dẫn độc lập tối đa 07 nghiên cứu sinh."
+  },
+  {
+    "question": "Thông báo tuyển sinh tiến sĩ phải được công bố trước bao nhiêu ngày làm việc?",
+    "expected_answer": "Thông báo phải được công bố công khai ít nhất 30 ngày làm việc trước khi tổ chức tuyển sinh.",
+    "expected_context": "Thông báo tuyển sinh được công bố công khai trên trang thông tin điện tử của Trường ít nhất 30 ngày làm việc trước khi tổ chức tuyển sinh."
+  },
+  {
+    "question": "Một tín chỉ trong chương trình thạc sĩ tương đương bao nhiêu giờ học định mức?",
+    "expected_answer": "Một tín chỉ tương đương 50 giờ học định mức của học viên.",
+    "expected_context": "Một tín chỉ được tính tương đương với 50 giờ học định mức của học viên, bao gồm giờ học được giảng dạy, giờ học có hướng dẫn, tự học, tự nghiên cứu, giờ học trải nghiệm, kiểm tra và đánh giá."
+  },
+  {
+    "question": "Chương trình thạc sĩ hai năm phải có tối thiểu bao nhiêu tín chỉ?",
+    "expected_answer": "Chương trình thạc sĩ hai năm phải có tối thiểu 60 tín chỉ.",
+    "expected_context": "Đảm bảo khối lượng kiến thức tối thiểu 30 tín chỉ đối với chương trình đào tạo một năm học; 45 tín chỉ đối với chương trình đào tạo một năm rưỡi và 60 tín chỉ đối với chương trình đào tạo hai năm học."
+  },
+  {
+    "question": "Luận văn thạc sĩ định hướng nghiên cứu có bao nhiêu tín chỉ và thực hiện tối thiểu bao lâu?",
+    "expected_answer": "Luận văn có khối lượng 12–15 tín chỉ và được thực hiện trong ít nhất 6 tháng.",
+    "expected_context": "Học viên theo học chương trình định hướng nghiên cứu phải thực hiện một đề tài nghiên cứu có khối lượng từ 12 đến 15 tín chỉ, kết quả được thể hiện bằng luận văn. Học viên thực hiện luận văn trong thời gian ít nhất 06 tháng."
+  },
+  {
+    "question": "Sau khi có quyết định công nhận tốt nghiệp, bằng thạc sĩ được cấp trong bao lâu?",
+    "expected_answer": "Bằng thạc sĩ được cấp trong thời hạn 1 tháng kể từ ngày có quyết định công nhận tốt nghiệp.",
+    "expected_context": "Phòng Quản lý Đào tạo thực hiện cấp bằng thạc sĩ cho học viên trong thời hạn 01 tháng tính từ ngày có quyết định công nhận tốt nghiệp."
+  },
+  {
+    "question": "Sinh viên đại học phải đăng ký bao nhiêu tín chỉ để duy trì trạng thái toàn thời gian?",
+    "expected_answer": "Sinh viên phải đăng ký tối thiểu 80% khối lượng học tập của học kỳ thông thường, tương đương 12 tín chỉ.",
+    "expected_context": "Để duy trì là sinh viên toàn thời gian (chính quy), sinh viên phải đăng ký tối thiểu 80% khối lượng học tập trong một học kỳ thông thường (tương đương với 12 tín chỉ)."
+  },
+  {
+    "question": "Sinh viên đại học được đăng ký tối đa bao nhiêu tín chỉ trong học kỳ Hè?",
+    "expected_answer": "Sinh viên được đăng ký tối đa 9 tín chỉ trong học kỳ Hè.",
+    "expected_context": "Kỳ học mùa Hè (Kỳ học Hè): tối đa 9 tín chỉ, khối lượng học tập tối thiểu không bắt buộc."
+  },
+  {
+    "question": "Thời hạn rút bớt học phần mà không bị ghi vào hồ sơ học tập là khi nào?",
+    "expected_answer": "Hạn cuối là ngày học thứ 15 của học kỳ chính hoặc ngày học thứ 10 của học kỳ Hè.",
+    "expected_context": "Hạn cuối rút bớt học phần là ngày học thứ 15 của học kỳ chính hoặc ngày học thứ 10 của các học kỳ Hè. Những thay đổi thực hiện trong giai đoạn này sẽ không được ghi vào hồ sơ học tập của sinh viên."
+  },
+  {
+    "question": "Yêu cầu IELTS Academic tối thiểu để đáp ứng chuẩn tiếng Anh đầu vào VinUni là gì?",
+    "expected_answer": "IELTS Academic tối thiểu 6.5 overall và không kỹ năng nào dưới 6.0.",
+    "expected_context": "International English Language Testing System (IELTS) Academic module: An overall score of 6.5, with no individual band score lower than 6.0."
+  },
+  {
+    "question": "Kết quả kiểm tra tiếng Anh dùng cho tuyển sinh VinUni phải được thi trong thời gian nào?",
+    "expected_answer": "Kết quả phải được thi trong vòng 2 năm trước ngày 15/5 của năm tuyển sinh liên quan.",
+    "expected_context": "The test results were obtained within two (02) years prior to May 15 of the relevant admission year. May 15 serves as the official validity cut-off date for all admission rounds in that academic year."
+  },
+  {
+    "question": "VinUni có chấp nhận Duolingo English Test làm minh chứng tiếng Anh đầu vào không?",
+    "expected_answer": "Không. Theo nguyên tắc chung, các bài thi online hoặc thi tại nhà như Duolingo English Test không được coi là minh chứng hợp lệ.",
+    "expected_context": "In general, online tests or at-home tests are not considered valid (i.e. IELTS Indicator, IELTS Online, TOEFL iBT Home Edition, The Duolingo English Test, etc.) for evidencing English proficiency to meet the entry requirements at VinUniversity."
+  },
+  {
+    "question": "Sinh viên đại học đã hoàn thành các môn tiếng Anh bắt buộc có đáp ứng yêu cầu tiếng Anh tốt nghiệp không?",
+    "expected_answer": "Có. Sinh viên đại học đạt tất cả các môn tiếng Anh bắt buộc, bao gồm Academic English hoặc Fundamentals of Academic Writing và các môn Pathway English bắt buộc, được xem là đã đáp ứng yêu cầu.",
+    "expected_context": "Undergraduate students who have completed all required English language courses by means of a passing grade, including Academic English or Fundamentals of Academic Writing courses and any required Pathway English courses, are considered to have met the English proficiency requirements for graduation."
+  },
+  {
+    "question": "Ai được miễn cung cấp thêm minh chứng tiếng Anh khi tốt nghiệp VinUni?",
+    "expected_answer": "Sinh viên là công dân hoặc thường trú nhân của các quốc gia có đa số người dùng tiếng Anh được miễn cung cấp thêm minh chứng.",
+    "expected_context": "Students who are citizens or permanent residents of majority English-speaking countries are exempt from needing to provide additional proof of English proficiency for graduation."
+  },
+  {
+    "question": "Yêu cầu chuyển chương trình nộp từ ngày 1/7 đến 15/8 sẽ có hiệu lực vào học kỳ nào?",
+    "expected_answer": "Yêu cầu trong giai đoạn 1/7–15/8 sẽ có hiệu lực vào học kỳ Thu.",
+    "expected_context": "Submit the request between: 1 July – 15 August. Normally processed by: At least one week before the first day of the course registration period for the next semester. Effective semester: Fall semester."
+  },
+  {
+    "question": "Sinh viên phải nộp khiếu nại điểm chính thức trong thời hạn bao lâu?",
+    "expected_answer": "Sinh viên phải nộp khiếu nại chính thức trong vòng 5 ngày làm việc sau khi điểm chính thức được đăng trên Canvas.",
+    "expected_context": "Formal Appeal: Within five (05) working days after the official grade posting on Canvas."
+  },
+  {
+    "question": "Nếu không hài lòng với kết quả khiếu nại điểm, quyết định cuối cùng của University Appeals Committee phải có trong bao lâu?",
+    "expected_answer": "Quyết định cuối cùng phải được đưa ra trong vòng 3 tuần sau khi điểm cuối cùng được đăng trên Canvas.",
+    "expected_context": "Further Appeal: A final decision must be made within three (03) weeks after final grades have been posted on Canvas."
+  },
+  {
+    "question": "Sinh viên muốn quay lại sau thời gian nghỉ học phải nộp yêu cầu trước khi học kỳ bắt đầu bao lâu?",
+    "expected_answer": "Sinh viên phải nộp yêu cầu ít nhất 1 tháng trước khi học kỳ quay lại bắt đầu.",
+    "expected_context": "Student returning from a leave of absence need to fill out the form. Timeline: At least one month before the start of the semester to resume studies."
+  }
+]

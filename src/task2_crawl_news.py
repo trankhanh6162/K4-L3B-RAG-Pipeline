@@ -22,6 +22,7 @@ from crawl4ai import AsyncWebCrawler, BrowserConfig, CacheMode, CrawlerRunConfig
 
 
 DATA_DIR = Path(__file__).parent.parent / "data" / "landing" / "news"
+load_dotenv()
 
 ARTICLE_URLS = [
     "https://policy.vinuni.edu.vn/academic-affairs/english-language-requirements-for-undergraduate-admissions/",
@@ -67,6 +68,8 @@ async def crawl_article(url: str) -> dict:
 async def crawl_all() -> None:
     """Crawl và lưu từng bài thành một file JSON."""
     DATA_DIR.mkdir(parents=True, exist_ok=True)
+    if len(ARTICLE_URLS) < 5:
+        raise ValueError("ARTICLE_URLS must contain at least 5 public URLs")
 
     for index, url in enumerate(ARTICLE_URLS, 1):
         try:
